@@ -1,0 +1,78 @@
+buildscript {
+    project.ext {
+        jvmVersion = '1.8'
+        springBootVersion = '2.1.5.RELEASE'
+
+        junitVersion = '4.12'
+        // cloud:
+        springCloudVersion = 'Greenwich.SR1' // Please use RELEASE in prod
+        springCloudSleuthVersion = '2.1.1.RELEASE'
+        springCloudConsulVersion = '2.1.1.RELEASE'
+        springCloudEurekaVersion = '2.1.1.RELEASE'
+
+    }
+    // 仓库配置
+    repositories {
+        // mavenCentral()
+        maven {
+            url "https://maven.aliyun.com/nexus/content/groups/public/"
+        }
+    }
+    dependencies {
+        classpath "org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}"
+    }
+}
+repositories {
+    maven {
+        url "http://maven.aliyun.com/nexus/content/groups/public/"
+    }
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+    sourceCompatibility = jvmVersion
+    targetCompatibility = jvmVersion
+}
+
+apply plugin: 'idea'
+apply plugin: 'java'
+apply plugin: 'maven'
+apply plugin: 'org.springframework.boot'
+apply plugin: 'io.spring.dependency-management'
+
+group 'cn.sunshengteng.scd'
+version '1.0.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+configurations {
+    compileOnly {
+        extendsFrom annotationProcessor
+    }
+    all {
+        resolutionStrategy.cacheChangingModulesFor  0, 'seconds'
+    }
+}
+
+dependencyManagement {
+    imports {
+        mavenBom "org.springframework.cloud:spring-cloud-dependencies:${springCloudVersion}"
+    }
+}
+dependencies {
+    annotationProcessor "org.springframework.boot:spring-boot-configuration-processor"
+
+    compile 'org.springframework.boot:spring-boot-starter-web'
+
+
+    // eureka
+    compile 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
+    //config
+    compile 'org.springframework.cloud:spring-cloud-starter-config'
+    //bus
+    compile "org.springframework.cloud:spring-cloud-bus"
+    compile "org.springframework.cloud:spring-cloud-starter-bus-amqp"
+
+    testCompile 'org.springframework.boot:spring-boot-starter-test'
+    testCompile "junit:junit:${junitVersion}"
+}
