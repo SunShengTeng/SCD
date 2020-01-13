@@ -13,13 +13,9 @@ buildscript {
     }
     // 仓库配置
     repositories {
-        // mavenCentral()
         maven {
             url "https://maven.aliyun.com/nexus/content/groups/public/"
         }
-    }
-    dependencies {
-        classpath "org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}"
     }
 }
 repositories {
@@ -33,7 +29,6 @@ tasks.withType(JavaCompile) {
     sourceCompatibility = jvmVersion
     targetCompatibility = jvmVersion
 }
-
 apply plugin: 'idea'
 apply plugin: 'java'
 apply plugin: 'maven'
