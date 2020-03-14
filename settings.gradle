@@ -2,4 +2,7 @@ rootProject.name = 'SCD'
 include 'eureka-server'
 include 'config-server'
 include 'common-utils'
+include 'item-server'
+include 'eureke-server-repeats'
+include 'Zuul'
 

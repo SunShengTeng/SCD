@@ -62,13 +62,11 @@ subprojects {
         annotationProcessor "org.springframework.boot:spring-boot-configuration-processor"
         compile 'org.springframework.boot:spring-boot-starter-web'
 
-        // eureka
-        compile 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
         //config
-        compile 'org.springframework.cloud:spring-cloud-starter-config'
+        /*compile 'org.springframework.cloud:spring-cloud-starter-config'*/
         //bus
-        compile "org.springframework.cloud:spring-cloud-bus"
-        compile "org.springframework.cloud:spring-cloud-starter-bus-amqp"
+        /*compile "org.springframework.cloud:spring-cloud-bus"
+        compile "org.springframework.cloud:spring-cloud-starter-bus-amqp"*/
 
         testCompile 'org.springframework.boot:spring-boot-starter-test'
         testCompile "junit:junit:${junitVersion}"
@@ -76,6 +74,9 @@ subprojects {
 }
 project(':eureka-server') {
 
+    dependencies {
+        compile "org.springframework.cloud:spring-cloud-starter-netflix-eureka-server"
+    }
 }
 project(':config-server') {
 

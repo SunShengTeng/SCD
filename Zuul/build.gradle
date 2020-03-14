@@ -1,0 +1,6 @@
+dependencies {
+    // eureka
+    compile 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
+    // Zuul
+    compile 'org.springframework.cloud:spring-cloud-starter-netflix-zuul'
+}
