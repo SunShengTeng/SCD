@@ -5,4 +5,5 @@ include 'common-utils'
 include 'item-server'
 include 'eureke-server-repeats'
 include 'Zuul'
+include 'Item-Interface'
 
