@@ -27,6 +27,7 @@ allprojects {
 
     apply plugin: 'idea'
     apply plugin: 'java'
+    apply plugin: 'maven'
 
     sourceCompatibility = 1.8
 
@@ -73,7 +74,6 @@ subprojects {
     }
 }
 project(':eureka-server') {
-
     dependencies {
         compile "org.springframework.cloud:spring-cloud-starter-netflix-eureka-server"
     }
@@ -88,6 +88,19 @@ project(':common-utils') {
         compile group: 'org.apache.httpcomponents', name: 'httpclient', version: '4.5.12'
         // https://mvnrepository.com/artifact/org.apache.commons/commons-lang3
         compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.5'
-
     }
+    def name = 'common-utils'
+    jar.enabled = true
+    uploadArchives {
+        repositories {
+            mavenDeployer {
+                repository(url: 'file://' + new File(System.getProperty('user.home'), 'server/gradle-6.5.1/caches/modules-2/files-2.1').absolutePath)
+                pom.version = "$project.version"
+                pom.artifactId = "$name"
+                pom.groupId = "$project.group"
+            }
+        }
+    }
+
 }
+

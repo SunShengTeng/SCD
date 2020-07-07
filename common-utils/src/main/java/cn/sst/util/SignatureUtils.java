@@ -13,7 +13,7 @@ import java.util.Base64;
  * @Date 2020/7/1 2:27 下午
  * @Version 1.1.0
  **/
-public interface SignatureUtil {
+public interface SignatureUtils {
     String HMAC_ALGORITHM = "HmacSHA256";
 
     char[] HEX_CHAR = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f'};

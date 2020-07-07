@@ -127,7 +127,7 @@ public class HttpUtils {
      * @param headers
      * @return
      */
-    public static JSONObject doGet(String url, Map<String, String> headers, Map<String, Object> params) {
+    public static JSONObject doGet(String url, Map<String, Object> headers, Map<String, Object> params) {
         String apiUrl = url;
         StringBuffer param = new StringBuffer();
         int i = 0;
@@ -233,7 +233,7 @@ public class HttpUtils {
      * @param headers HeaderMap
      * @return
      */
-    public static JSONObject doPost(String apiUrl, Map<String, String> headers, Map<String, Object> params) {
+    public static JSONObject doPost(String apiUrl, Map<String, Object> headers, Map<String, Object> params) {
         CloseableHttpClient httpClient = null;
         if (apiUrl.startsWith("https")) {
             httpClient = HttpClients.custom().setSSLSocketFactory(createSSLConnSocketFactory())
@@ -282,11 +282,11 @@ public class HttpUtils {
      * @Date 2020/7/6 2:42 下午
      * @Param [requestBase, headers]
      **/
-    private static void setHeaders(HttpRequestBase requestBase, Map<String, String> headers) {
-        Iterator<Map.Entry<String, String>> entryIterator = headers.entrySet().iterator();
+    private static void setHeaders(HttpRequestBase requestBase, Map<String, Object> headers) {
+        Iterator<Map.Entry<String, Object>> entryIterator = headers.entrySet().iterator();
         while (entryIterator.hasNext()) {
-            Map.Entry<String, String> entry = entryIterator.next();
-            requestBase.setHeader(new BasicHeader(entry.getKey(), entry.getValue()));
+            Map.Entry<String, Object> entry = entryIterator.next();
+            requestBase.setHeader(new BasicHeader(entry.getKey(), entry.getValue().toString()));
         }
     }
 
