@@ -5,6 +5,8 @@ rebel.xml
 gradle*
 # Compiled class file
 *.class
+*/build/*
+build/*
 
 # Log file
 *.log
