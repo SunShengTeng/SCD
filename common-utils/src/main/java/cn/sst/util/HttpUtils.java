@@ -93,7 +93,6 @@ public class HttpUtils {
             i++;
         }
         apiUrl += param;
-        String result = null;
         HttpClient httpClient = null;
         if (apiUrl.startsWith("https")) {
             httpClient = HttpClients.custom().setSSLSocketFactory(createSSLConnSocketFactory())
@@ -177,7 +176,7 @@ public class HttpUtils {
      * @return
      */
     public static JSONObject doPost(String apiUrl) {
-        return doPost(apiUrl, new HashMap<String, Object>());
+        return doPost(apiUrl, new HashMap<String, Object>(16));
     }
 
     /**
@@ -195,7 +194,6 @@ public class HttpUtils {
         } else {
             httpClient = HttpClients.createDefault();
         }
-        String httpStr;
         HttpPost httpPost = new HttpPost(apiUrl);
         CloseableHttpResponse response = null;
 
@@ -209,8 +207,7 @@ public class HttpUtils {
             httpPost.setEntity(new UrlEncodedFormEntity(pairList, Charset.forName("UTF-8")));
             response = httpClient.execute(httpPost);
             HttpEntity entity = response.getEntity();
-            httpStr = EntityUtils.toString(entity, "UTF-8");
-            return JSONObject.parseObject(httpStr);
+            return JSONObject.parseObject(EntityUtils.toString(entity, "UTF-8"));
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
@@ -275,29 +272,13 @@ public class HttpUtils {
     }
 
     /**
-     * 设置Header信息
-     *
-     * @return void
-     * @author shengtengsun
-     * @Date 2020/7/6 2:42 下午
-     * @Param [requestBase, headers]
-     **/
-    private static void setHeaders(HttpRequestBase requestBase, Map<String, Object> headers) {
-        Iterator<Map.Entry<String, Object>> entryIterator = headers.entrySet().iterator();
-        while (entryIterator.hasNext()) {
-            Map.Entry<String, Object> entry = entryIterator.next();
-            requestBase.setHeader(new BasicHeader(entry.getKey(), entry.getValue().toString()));
-        }
-    }
-
-    /**
      * 发送 POST 请求，JSON形式
      *
      * @param apiUrl
-     * @param json   json对象
+     * @param jsonObject json对象
      * @return
      */
-    public static JSONObject doPost(String apiUrl, Object json) {
+    public static JSONObject doPost(String apiUrl, Map<String, Object> headers, JSONObject jsonObject) {
         CloseableHttpClient httpClient = null;
         if (apiUrl.startsWith("https")) {
             httpClient = HttpClients.custom().setSSLSocketFactory(createSSLConnSocketFactory())
@@ -307,12 +288,15 @@ public class HttpUtils {
         }
         String httpStr = null;
         HttpPost httpPost = new HttpPost(apiUrl);
+        if (null != headers) {
+            setHeaders(httpPost, headers);
+        }
         CloseableHttpResponse response = null;
 
         try {
             httpPost.setConfig(requestConfig);
             // 解决中文乱码问题
-            StringEntity stringEntity = new StringEntity(json.toString(), "UTF-8");
+            StringEntity stringEntity = new StringEntity(jsonObject.toString(), "UTF-8");
             stringEntity.setContentEncoding("UTF-8");
             stringEntity.setContentType("application/json");
             httpPost.setEntity(stringEntity);
@@ -332,6 +316,22 @@ public class HttpUtils {
             }
         }
         return JSON.parseObject(httpStr);
+    }
+
+    /**
+     * 设置Header信息
+     *
+     * @return void
+     * @author shengtengsun
+     * @Date 2020/7/6 2:42 下午
+     * @Param [requestBase, headers]
+     **/
+    private static void setHeaders(HttpRequestBase requestBase, Map<String, Object> headers) {
+        Iterator<Map.Entry<String, Object>> entryIterator = headers.entrySet().iterator();
+        while (entryIterator.hasNext()) {
+            Map.Entry<String, Object> entry = entryIterator.next();
+            requestBase.setHeader(new BasicHeader(entry.getKey(), entry.getValue().toString()));
+        }
     }
 
     /**
