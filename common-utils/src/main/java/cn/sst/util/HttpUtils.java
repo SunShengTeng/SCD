@@ -25,9 +25,7 @@ import org.apache.http.util.EntityUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import javax.net.ssl.HostnameVerifier;
 import javax.net.ssl.SSLContext;
-import javax.net.ssl.SSLSession;
 import java.io.IOException;
 import java.nio.charset.Charset;
 import java.security.GeneralSecurityException;
@@ -81,18 +79,22 @@ public class HttpUtils {
      */
     public static JSONObject doGet(String url, Map<String, Object> params) {
         String apiUrl = url;
-        StringBuffer param = new StringBuffer();
-        int i = 0;
-        for (String key : params.keySet()) {
-            if (i == 0) {
-                param.append("?");
-            } else {
-                param.append("&");
+
+        if (null != params) {
+            StringBuffer param = new StringBuffer();
+            int i = 0;
+            for (String key : params.keySet()) {
+                if (i == 0) {
+                    param.append("?");
+                } else {
+                    param.append("&");
+                }
+                param.append(key).append("=").append(params.get(key));
+                i++;
             }
-            param.append(key).append("=").append(params.get(key));
-            i++;
+            apiUrl += param;
         }
-        apiUrl += param;
+
         HttpClient httpClient = null;
         if (apiUrl.startsWith("https")) {
             httpClient = HttpClients.custom().setSSLSocketFactory(createSSLConnSocketFactory())
@@ -128,18 +130,20 @@ public class HttpUtils {
      */
     public static JSONObject doGet(String url, Map<String, Object> headers, Map<String, Object> params) {
         String apiUrl = url;
-        StringBuffer param = new StringBuffer();
-        int i = 0;
-        for (String key : params.keySet()) {
-            if (i == 0) {
-                param.append("?");
-            } else {
-                param.append("&");
+        if (null != params) {
+            StringBuffer param = new StringBuffer();
+            int i = 0;
+            for (String key : params.keySet()) {
+                if (i == 0) {
+                    param.append("?");
+                } else {
+                    param.append("&");
+                }
+                param.append(key).append("=").append(params.get(key));
+                i++;
             }
-            param.append(key).append("=").append(params.get(key));
-            i++;
+            apiUrl += param;
         }
-        apiUrl += param;
         String result = null;
         HttpClient httpClient = null;
         if (apiUrl.startsWith("https")) {
@@ -350,12 +354,7 @@ public class HttpUtils {
                     return true;
                 }
             }).build();
-            sslsf = new SSLConnectionSocketFactory(sslContext, new HostnameVerifier() {
-                @Override
-                public boolean verify(String arg0, SSLSession arg1) {
-                    return true;
-                }
-            });
+            sslsf = new SSLConnectionSocketFactory(sslContext, (str, ssls) -> str != null || ssls != null);
         } catch (GeneralSecurityException e) {
             e.printStackTrace();
         }
