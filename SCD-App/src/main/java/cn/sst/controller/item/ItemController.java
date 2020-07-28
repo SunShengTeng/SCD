@@ -1,12 +1,15 @@
 package cn.sst.controller.item;
 
 import cn.sst.annotation.LoggerRequestParam;
+import cn.sst.service.item.ItemService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.http.HttpServletRequest;
+import java.util.List;
 
 /**
  * @author shengtengsun
@@ -17,11 +20,19 @@ import javax.servlet.http.HttpServletRequest;
 @RestController
 @RequestMapping("/item")
 public class ItemController {
+    @Autowired
+    private ItemService itemService;
 
     @GetMapping("/info")
     @LoggerRequestParam
     public String getItemInfo(HttpServletRequest request, @RequestParam("itemId") String itemId) {
         System.out.println("ID为:" + itemId + "商品信息");
         return "商品信息" + itemId;
+    }
+
+    @GetMapping("/list")
+    public List<String> getItemList(@RequestParam("itemType") String itemType) {
+        List<String> list = itemService.findItemList(itemType);
+        return list;
     }
 }
