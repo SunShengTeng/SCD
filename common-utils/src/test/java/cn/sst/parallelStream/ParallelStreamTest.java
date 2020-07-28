@@ -20,6 +20,7 @@ public class ParallelStreamTest {
             t.addAll(u);
         });
         System.out.println(list);
+        printPCInfo();
     }
 
     public static void printPCInfo() {

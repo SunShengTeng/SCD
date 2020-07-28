@@ -4,6 +4,6 @@ include 'config-server'
 include 'common-utils'
 include 'eureke-server-repeats'
 include 'Zuul'
-include 'ItemService'
 include 'SCD-App'
+include 'item-server'
 
