@@ -9,6 +9,6 @@ package cn.sst.util;
  **/
 public class HttpTest {
     public static void main(String[] args) throws Exception {
-        System.out.println((10 / 3) * 2 % 5);
+
     }
 }

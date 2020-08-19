@@ -1,4 +1,4 @@
-package cn.sst.item.account;
+package cn.sst;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
