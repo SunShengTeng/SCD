@@ -12,7 +12,7 @@ spring:
       password: 208521
     member:
       driver-class-name: com.mysql.jdbc.Driver
-      jdbc-url: jdbc:mysql://localhost:3306/config_server
+      jdbc-url: jdbc:mysql://localhost:3306/member
       username: sunshengteng
       password: 208521
   # JPA
