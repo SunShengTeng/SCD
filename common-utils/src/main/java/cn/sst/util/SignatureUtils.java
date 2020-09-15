@@ -1,5 +1,6 @@
 package cn.sst.util;
 
+
 import javax.crypto.Mac;
 import javax.crypto.spec.SecretKeySpec;
 import java.nio.charset.StandardCharsets;
@@ -55,5 +56,57 @@ public interface SignatureUtils {
         byte[] hash = mac.doFinal(tobeSig.getBytes(StandardCharsets.UTF_8));
         String hexHash = bytesToHex(hash);
         return new String(Base64.getEncoder().encode(hexHash.getBytes(StandardCharsets.UTF_8)));
+    }
+
+    /**
+     * 加密消息
+     *
+     * @param content   : 加密消息
+     * @param secretKey : 签名Key
+     * @return java.lang.String
+     * @throws NoSuchAlgorithmException
+     * @throws InvalidKeyException
+     * @author shengtengsun
+     * @Date 2020/9/11 4:58 下午
+     **/
+    static String encodeMessage(String secretKey, String content) throws NoSuchAlgorithmException, InvalidKeyException {
+        String signature = generalSignature(secretKey, content);
+        return new String(Base64.getEncoder().encode(signature.getBytes(StandardCharsets.UTF_8)));
+    }
+
+    /**
+     * 解密
+     *
+     * @param secretKey
+     * @param content
+     * @return java.lang.String
+     * @author shengtengsun
+     * @Date 2020/9/11 5:16 下午
+     **/
+    static String decodeMessage(String secretKey, String content) throws InvalidKeyException, NoSuchAlgorithmException {
+
+        String contentStr = new String(Base64.getDecoder().decode(content.getBytes(StandardCharsets.UTF_8)));
+        return "";
+    }
+
+    /**
+     * 生成签名
+     *
+     * @param secretKey
+     * @param message
+     * @return java.lang.String
+     * @throws NoSuchAlgorithmException
+     * @throws InvalidKeyException
+     * @author shengtengsun
+     * @Date 2020/9/11 5:14 下午
+     **/
+    static String generalSignature(String secretKey, String message) throws NoSuchAlgorithmException, InvalidKeyException {
+        String tobeSign = "SECRET_KEY" + secretKey + "CONTENT" + message;
+
+        Mac mac = Mac.getInstance(HMAC_ALGORITHM);
+        SecretKeySpec keySpec = new SecretKeySpec(secretKey.getBytes(StandardCharsets.UTF_8), mac.getAlgorithm());
+        mac.init(keySpec);
+
+        return bytesToHex(mac.doFinal(tobeSign.getBytes(StandardCharsets.UTF_8)));
     }
 }

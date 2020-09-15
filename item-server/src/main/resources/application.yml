@@ -33,3 +33,5 @@ logging:
   level:
     org.hibernate.type.descriptor.sql: trace
     org.springframework: error
+
+

@@ -10,6 +10,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
+import java.util.HashMap;
+
 /**
  * @author shengtengsun
  * @Description
@@ -26,6 +28,7 @@ public class AccountMemberTest {
 
     @Test
     public void insertMember() {
+        HashMap<String, Object> map = new HashMap<>(16);
         memberService.insertMember(new Member() {{
             setName("孙胜腾");
         }});

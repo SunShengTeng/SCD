@@ -1,8 +1,10 @@
 package cn.sst.controller.item;
 
 import cn.sst.annotation.LoggerRequestParam;
+import cn.sst.config.AccountConfig;
 import cn.sst.service.item.ItemService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -19,14 +21,17 @@ import java.util.List;
  **/
 @RestController
 @RequestMapping("/item")
+@EnableConfigurationProperties(value = AccountConfig.class)
 public class ItemController {
     @Autowired
     private ItemService itemService;
+    @Autowired
+    private AccountConfig accountConfig;
 
     @GetMapping("/info")
     @LoggerRequestParam
     public String getItemInfo(HttpServletRequest request, @RequestParam("itemId") String itemId) {
-        System.out.println("ID为:" + itemId + "商品信息");
+        System.out.println("ID为:" + itemId + "商品信息" + accountConfig.getNumber());
         return "商品信息" + itemId;
     }
 

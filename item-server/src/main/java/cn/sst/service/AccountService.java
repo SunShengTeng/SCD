@@ -4,8 +4,8 @@ import cn.sst.annotation.UsedDateSource;
 import cn.sst.datasource.DataSourceType;
 import cn.sst.entity.Account;
 import cn.sst.mapper.AccountMapper;
+import net.devh.boot.grpc.server.service.GrpcService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
 
 /**
  * @author shengtengsun
@@ -13,7 +13,7 @@ import org.springframework.stereotype.Service;
  * @Date 2020/8/19 5:42 下午
  * @Version 1.1.0
  **/
-@Service
+@GrpcService
 public class AccountService {
     @Autowired
     private AccountMapper accountMapper;
