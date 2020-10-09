@@ -13,9 +13,9 @@ import org.springframework.context.annotation.Bean;
  * @Date 2020/3/14 5:22 下午
  * @Version 1.1.0
  **/
-@SpringBootApplication
 @EnableDiscoveryClient
 @EnableZuulProxy
+@SpringBootApplication
 public class StartApplication {
     public static void main(String[] args) {
         SpringApplication.run(StartApplication.class, args);

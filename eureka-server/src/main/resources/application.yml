@@ -1,6 +1,6 @@
 #端口号
 server:
-  port: 8888
+  port: 8761
 spring:
   application:
     name: eureka-service
@@ -9,6 +9,9 @@ spring:
 eureka:
   instance:
     hostname: eureka
+    prefer-ip-address: true
+    status-page-url-path: /actuator/info
+    health-check-url-path: /actuator/health
   ##续约时间
   #    lease-expiration-duration-in-seconds: 90
   ##定时任务是时间，每个隔多少秒去重新刷新续约时间
@@ -21,7 +24,7 @@ eureka:
     fetch-registry: false
     #注册中心地址
     service-url:
-      defaultZone: http://localhost:8888/eureka/
+      defaultZone: http://localhost:8761/eureka/
   server:
     #是否开启安全保护，默认是开启的，如果默认开启，注册中心的服务列表就算有些服务断开了，也会继续保存
     enable-self-preservation: false

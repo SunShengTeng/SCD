@@ -1,5 +1,6 @@
 package cn.sst;
 
+import java.text.SimpleDateFormat;
 import java.time.Instant;
 import java.time.LocalDateTime;
 import java.time.ZoneId;
@@ -14,14 +15,9 @@ import java.util.Date;
  **/
 public class DateFormat {
     public static void main(String[] args) {
-        LocalDateTime now = LocalDateTime.now();
-        LocalDateTime startTime = now.plusDays(-2);
-        LocalDateTime endTime = now.plusDays(2);
-
-        Date from = Date.from(startTime.atZone(ZoneId.systemDefault()).toInstant());
-        Date end = Date.from(endTime.atZone(ZoneId.systemDefault()).toInstant());
-
-        System.out.println(format(from, end));
+        Date date = new Date();
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+        System.out.println(sdf.format(null));
 
 
     }

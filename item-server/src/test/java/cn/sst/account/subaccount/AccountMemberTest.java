@@ -2,8 +2,8 @@ package cn.sst.account.subaccount;
 
 import cn.sst.entity.Account;
 import cn.sst.entity.Member;
-import cn.sst.service.AccountService;
 import cn.sst.service.MemberService;
+import cn.sst.service.impl.AccountServiceImpl;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,7 +22,7 @@ import java.util.HashMap;
 @SpringBootTest
 public class AccountMemberTest {
     @Autowired
-    private AccountService accountService;
+    private AccountServiceImpl accountService;
     @Autowired
     private MemberService memberService;
 
