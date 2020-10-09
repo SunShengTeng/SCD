@@ -1,6 +1,6 @@
 spring:
   application:
-    name: app
+    name: inventory-service
 
   profiles:
     active: dev

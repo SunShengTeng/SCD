@@ -5,6 +5,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.Arrays;
+import java.util.List;
+
 /**
  * @author shengtengsun
  * @Description
@@ -16,6 +19,12 @@ import org.springframework.web.bind.annotation.RestController;
 public class ItemController {
     @GetMapping("/info")
     public String getItemNameById(@RequestParam String itemId) {
+
         return "商品" + itemId;
+    }
+
+    @GetMapping("/list")
+    public List<String> getItemList() {
+        return Arrays.asList("商品1", "商品2", "商品3");
     }
 }

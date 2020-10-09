@@ -1,8 +1,11 @@
 package cn.sst.feign;
 
+import cn.sst.feign.factory.ItemServiceFallBackFactory;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+
+import java.util.List;
 
 /**
  * @author shengtengsun
@@ -10,8 +13,8 @@ import org.springframework.web.bind.annotation.RequestParam;
  * @Date 2020/9/30 11:20 上午
  * @Version 1.1.0
  **/
-@FeignClient(value = "item-service")
-public interface ItemServiceFeignService {
+@FeignClient(value = "item-service", fallbackFactory = ItemServiceFallBackFactory.class)
+public interface ItemServiceFeignClient {
     /**
      * 商品详细信息
      *
@@ -22,4 +25,7 @@ public interface ItemServiceFeignService {
      **/
     @GetMapping("/item/info")
     String getItemNameById(@RequestParam String itemId);
+
+    @GetMapping("/list")
+    List<String> getItemList();
 }

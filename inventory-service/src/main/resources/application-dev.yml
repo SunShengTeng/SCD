@@ -1,0 +1,25 @@
+server:
+  port: 8071
+
+spring:
+  # DataSource
+  datasource:
+    account:
+      driver-class-name: com.mysql.jdbc.Driver
+      jdbc-url: jdbc:mysql://localhost:3306/account
+      username: sunshengteng
+      password: 208521
+    member:
+      driver-class-name: com.mysql.jdbc.Driver
+      jdbc-url: jdbc:mysql://localhost:3306/member
+      username: sunshengteng
+      password: 208521
+
+
+# Logger
+logging:
+  level:
+    org.hibernate.type.descriptor.sql: trace
+    org.springframework: error
+
+

@@ -1,7 +1,6 @@
 package cn.sst.controller.item;
 
-import cn.sst.service.ItemServiceImpl;
-import cn.sst.util.ThreadPoolUtil;
+import cn.sst.service.ItemService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -11,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 import javax.servlet.http.HttpServletRequest;
 import java.time.LocalDateTime;
 import java.util.List;
-import java.util.concurrent.ThreadPoolExecutor;
+import java.util.Random;
 
 /**
  * @author shengtengsun
@@ -23,7 +22,7 @@ import java.util.concurrent.ThreadPoolExecutor;
 @RequestMapping("/item")
 public class ItemController {
     @Autowired
-    private ItemServiceImpl itemService;
+    private ItemService itemService;
 
 
     @GetMapping("/condition/info")
@@ -45,20 +44,26 @@ public class ItemController {
 
     @GetMapping("/concurrent")
     public String concurrent() throws Exception {
-        System.out.println("当次请求开始！");
+        int nextInt = new Random().nextInt(10);
+        System.out.println("当次请求开始！" + nextInt);
+
+        /*
+        ArrayList<String> itemList = new ArrayList<>();
         ThreadPoolExecutor executor = ThreadPoolUtil.itemServiceThreadPoolExecutor();
         for (int i = 0; i < 0x5; i++) {
             int finalI = i;
             executor.execute(() -> {
                 try {
-                    itemService.concurrentForItem(String.valueOf(finalI));
+                    String item = itemService.concurrentForItem(String.valueOf(finalI));
+                    itemList.add(item);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
             });
-        }
-        System.out.println("当次请求结束！");
-        return "item";
+        }*/
+        String item = itemService.concurrentForItem(String.valueOf(nextInt));
+        System.out.println("当次请求结束！" + nextInt);
+        return item;
     }
 
     @GetMapping("/list")

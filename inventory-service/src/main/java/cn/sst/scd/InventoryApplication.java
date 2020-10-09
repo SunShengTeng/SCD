@@ -1,4 +1,4 @@
-package cn.sst;
+package cn.sst.scd;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,14 +6,14 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 /**
  * @author shengtengsun
- * @Description 应用启动类
- * @Date 2020/7/27 5:00 下午
+ * @Description 库存中心启动类
+ * @Date 2020/10/9 4:11 下午
  * @Version 1.1.0
  **/
-@EnableDiscoveryClient
 @SpringBootApplication
-public class ItemApplication {
+@EnableDiscoveryClient
+public class InventoryApplication {
     public static void main(String[] args) {
-        SpringApplication.run(ItemApplication.class, args);
+        SpringApplication.run(InventoryApplication.class, args);
     }
 }

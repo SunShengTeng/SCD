@@ -1,0 +1,22 @@
+server:
+  port: 8081
+
+# AOP配置
+spring:
+  aop:
+    proxy-target-class: true
+  # JSON 缩进输出
+  jackson:
+    serialization:
+      indent_output: true
+
+account:
+  number:
+
+
+logging:
+  level:
+    # security 日志
+    org.springframework.security: info
+
+

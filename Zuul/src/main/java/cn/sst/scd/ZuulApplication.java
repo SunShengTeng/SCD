@@ -16,9 +16,9 @@ import org.springframework.context.annotation.Bean;
 @EnableDiscoveryClient
 @EnableZuulProxy
 @SpringBootApplication
-public class StartApplication {
+public class ZuulApplication {
     public static void main(String[] args) {
-        SpringApplication.run(StartApplication.class, args);
+        SpringApplication.run(ZuulApplication.class, args);
     }
 
     /**
