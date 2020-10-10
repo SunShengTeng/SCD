@@ -17,9 +17,9 @@ import java.util.List;
 @RestController
 @RequestMapping("/item")
 public class ItemController {
+
     @GetMapping("/info")
     public String getItemNameById(@RequestParam String itemId) {
-
         return "商品" + itemId;
     }
 

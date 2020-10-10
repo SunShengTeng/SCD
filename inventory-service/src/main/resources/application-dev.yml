@@ -1,6 +1,8 @@
 server:
   port: 8071
-
+grpc:
+  server:
+    port: 9071
 spring:
   # DataSource
   datasource:

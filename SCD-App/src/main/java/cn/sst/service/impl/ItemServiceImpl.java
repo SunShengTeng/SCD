@@ -2,6 +2,7 @@ package cn.sst.service.impl;
 
 import cn.sst.annotation.EnableOperatorLog;
 import cn.sst.enums.SystemOperatorType;
+import cn.sst.feign.InventoryServiceFeignClient;
 import cn.sst.feign.ItemServiceFeignClient;
 import cn.sst.service.ItemService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,7 +22,9 @@ import java.util.List;
 public class ItemServiceImpl implements ItemService {
 
     @Autowired
-    private ItemServiceFeignClient itemServiceFeignService;
+    private ItemServiceFeignClient itemServiceFeignClient;
+    @Autowired
+    private InventoryServiceFeignClient inventoryServiceFeignClient;
 
     //@HystrixCommand
     @Override
@@ -59,8 +62,11 @@ public class ItemServiceImpl implements ItemService {
     @Override
     // @EnableOperatorLog(operatorType = SystemOperatorType.INSERT, priModel = "123")
     public String concurrentForItem(String itemId) throws Exception {
-        String itemInfo = itemServiceFeignService.getItemNameById(itemId);
-        System.out.println("主线程的名字" + Thread.currentThread().getName() + "其他信息" + Thread.currentThread().toString());
+        String itemInfo = itemServiceFeignClient.getItemNameById(itemId);
+        System.out.println("商品信息" + itemInfo);
+
+        Integer inventory = inventoryServiceFeignClient.getInventoryByItemId(itemId);
+        System.out.println("库存数量" + inventory);
         return itemInfo;
     }
 }

@@ -1,6 +1,7 @@
 package cn.sst.feign.callback;
 
 import cn.sst.feign.ItemServiceFeignClient;
+import lombok.extern.slf4j.Slf4j;
 
 import java.util.Collections;
 import java.util.List;
@@ -11,11 +12,12 @@ import java.util.List;
  * @Date 2020/9/30 1:50 下午
  * @Version 1.1.0
  **/
+@Slf4j
 public class ItemServiceFallBack implements ItemServiceFeignClient {
     @Override
     public String getItemNameById(String itemId) {
         // TODO 降级
-        System.out.println("服务降级策略");
+        log.error("商品服务FallBack");
         return "默认商品";
     }
 

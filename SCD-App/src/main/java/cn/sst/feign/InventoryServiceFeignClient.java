@@ -2,6 +2,7 @@ package cn.sst.feign;
 
 import cn.sst.feign.factory.InventoryServiceFallBackFactory;
 import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 /**
@@ -20,5 +21,6 @@ public interface InventoryServiceFeignClient {
      * @author shengtengsun
      * @date 2020/10/9 4:16 下午
      **/
+    @GetMapping("/inventory/count")
     Integer getInventoryByItemId(@RequestParam String itemId);
 }
