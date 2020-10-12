@@ -12,5 +12,7 @@ public interface ItemService {
 
     String concurrentForItem(String itemId) throws Exception;
 
-    List<String> findItemList(String itemType) throws Exception;
+    List<String> findItemList(Object... obs) throws Exception;
+
+    List<String> itemList();
 }

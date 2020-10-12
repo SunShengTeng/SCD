@@ -26,6 +26,6 @@ public interface ItemServiceFeignClient {
     @GetMapping("/item/info")
     String getItemNameById(@RequestParam String itemId);
 
-    @GetMapping("/list")
+    @GetMapping("/item/list")
     List<String> getItemList();
 }

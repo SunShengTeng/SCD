@@ -1,7 +1,8 @@
 package cn.sst.feign.factory;
 
 import cn.sst.feign.InventoryServiceFeignClient;
-import cn.sst.feign.callback.InventoryServiceFallBack;
+import cn.sst.feign.callback.InventoryServiceTimeOutFallBack;
+import com.netflix.hystrix.exception.HystrixTimeoutException;
 import feign.hystrix.FallbackFactory;
 import org.springframework.stereotype.Component;
 
@@ -13,9 +14,17 @@ import org.springframework.stereotype.Component;
  **/
 @Component
 public class InventoryServiceFallBackFactory implements FallbackFactory<InventoryServiceFeignClient> {
+
     @Override
     public InventoryServiceFeignClient create(Throwable cause) {
-        InventoryServiceFallBack fallBack = new InventoryServiceFallBack();
-        return fallBack;
+        if (cause instanceof HystrixTimeoutException) {
+            return new InventoryServiceTimeOutFallBack();
+        }
+        return new InventoryServiceFeignClient() {
+            @Override
+            public Integer getInventoryByItemId(String itemId) {
+                throw new RuntimeException(cause.getCause() != null ? cause.getCause().getMessage() : cause.getMessage());
+            }
+        };
     }
 }

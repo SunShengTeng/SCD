@@ -26,18 +26,15 @@ public class ItemServiceImpl implements ItemService {
     @Autowired
     private InventoryServiceFeignClient inventoryServiceFeignClient;
 
-    //@HystrixCommand
     @Override
     @EnableOperatorLog(operatorType = SystemOperatorType.INSERT, priModel = "模块1")
-    public List<String> findItemList(String itemType) throws Exception {
-        //
-        try {
-            String str = null;
-            System.out.println(str.substring(0, 2));
-        } catch (Exception e) {
-            throw e;
-        }
-        return Arrays.asList(itemType + "商品1", itemType + "商品2");
+    public List<String> findItemList(Object... objects) throws Exception {
+        return Arrays.asList(objects + "商品1", objects + "商品2");
+    }
+
+    @Override
+    public List<String> itemList() {
+        return itemServiceFeignClient.getItemList();
     }
 
     public Subscriber subscribeInventory() {

@@ -1,7 +1,8 @@
 package cn.sst.feign.factory;
 
 import cn.sst.feign.ItemServiceFeignClient;
-import cn.sst.feign.callback.ItemServiceFallBack;
+import cn.sst.feign.callback.ItemServiceTimeOutFallBack;
+import com.netflix.hystrix.exception.HystrixTimeoutException;
 import feign.hystrix.FallbackFactory;
 import org.springframework.stereotype.Component;
 
@@ -15,7 +16,9 @@ import org.springframework.stereotype.Component;
 public class ItemServiceFallBackFactory implements FallbackFactory<ItemServiceFeignClient> {
     @Override
     public ItemServiceFeignClient create(Throwable cause) {
-        ItemServiceFallBack fallBack = new ItemServiceFallBack();
-        return fallBack;
+        if (cause instanceof HystrixTimeoutException) {
+            return new ItemServiceTimeOutFallBack();
+        }
+        return null;
     }
 }

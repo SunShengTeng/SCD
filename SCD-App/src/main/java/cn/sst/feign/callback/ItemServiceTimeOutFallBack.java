@@ -3,7 +3,6 @@ package cn.sst.feign.callback;
 import cn.sst.feign.ItemServiceFeignClient;
 import lombok.extern.slf4j.Slf4j;
 
-import java.util.Collections;
 import java.util.List;
 
 /**
@@ -13,16 +12,22 @@ import java.util.List;
  * @Version 1.1.0
  **/
 @Slf4j
-public class ItemServiceFallBack implements ItemServiceFeignClient {
+public class ItemServiceTimeOutFallBack implements ItemServiceFeignClient {
+
     @Override
     public String getItemNameById(String itemId) {
-        // TODO 降级
-        log.error("商品服务FallBack");
+        log.error("商品服务-超时-FallBack");
         return "默认商品";
     }
 
     @Override
     public List<String> getItemList() {
-        return Collections.emptyList();
+        throw new ItemServiceTimeOutException("getItemList");
+    }
+
+    public class ItemServiceTimeOutException extends RuntimeException {
+        public ItemServiceTimeOutException(String methodName) {
+            super("ItemService服务" + methodName + "()请求超时");
+        }
     }
 }

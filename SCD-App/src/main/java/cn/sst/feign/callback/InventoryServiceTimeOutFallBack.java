@@ -10,7 +10,8 @@ import lombok.extern.slf4j.Slf4j;
  * @Version 1.1.0
  **/
 @Slf4j
-public class InventoryServiceFallBack implements InventoryServiceFeignClient {
+public class InventoryServiceTimeOutFallBack implements InventoryServiceFeignClient {
+
     @Override
     public Integer getInventoryByItemId(String itemId) {
         log.error("返回预定义库存数量");

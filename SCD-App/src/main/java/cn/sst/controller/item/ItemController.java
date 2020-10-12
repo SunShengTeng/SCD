@@ -67,9 +67,13 @@ public class ItemController {
     }
 
     @GetMapping("/list")
-    // @PreAuthorize("") // TODO open Authorization
-    public List<String> getItemList(@RequestParam("itemType") String itemType) throws Exception {
-        List<String> list = itemService.findItemList(itemType);
+    public List<String> getItemList() {
+        List<String> list = itemService.itemList();
         return list;
+    }
+
+    @GetMapping("/find")
+    public List<String> findItemList() throws Exception {
+        return null;
     }
 }
