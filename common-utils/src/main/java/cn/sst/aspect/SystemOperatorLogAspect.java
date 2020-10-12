@@ -21,10 +21,7 @@ import org.springframework.web.context.request.ServletRequestAttributes;
 import java.beans.PropertyDescriptor;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.concurrent.CompletableFuture;
 
 /**
@@ -39,6 +36,10 @@ import java.util.concurrent.CompletableFuture;
 public class SystemOperatorLogAspect {
 
     private static final String PROPERTY_ID = "id";
+    /**
+     * 大华逻辑删除
+     **/
+    private static final String DA_HUA_IS_DEL = "isDel";
 
     private static final String LANG_PACKAGE_NAME = "java.lang";
 
@@ -70,14 +71,57 @@ public class SystemOperatorLogAspect {
 
         ServletRequestAttributes requestAttributes = (ServletRequestAttributes) RequestContextHolder.getRequestAttributes();
         OperationLogDTO operationLogDTO = new OperationLogDTO();
-        analyzingOperationTypeAndSetProjectId(joinPoint, operationLogDTO);
+        analyzingOperationTypeForInsertOrUpdate(joinPoint, operationLogDTO);
+
+        // 如果是更新，则判断是否为删除(仅仅为了支持大华的'isDel'架构)
+        if (operationLogDTO.getOperatorType().equals(SystemOperatorType.UPDATE)) {
+            analyzingOperationTypeForDelete(joinPoint, operationLogDTO);
+        }
 
         System.out.println("");
         System.out.println("日志线程:" + Thread.currentThread().getName());
     }
 
     /**
-     * 解析参数更新操作类型(区分是保存、更新)，并获取项目ID
+     * 分析操作类型是否为逻辑删除(大华：isDel为1)
+     *
+     * @param joinPoint
+     * @param operationLogDTO
+     * @return void
+     * @author shengtengsun
+     * @date 2020/10/12 10:34 上午
+     **/
+    private void analyzingOperationTypeForDelete(JoinPoint joinPoint, OperationLogDTO operationLogDTO) {
+
+        List<Object> paramList = Arrays.asList(joinPoint.getArgs());
+        for (Object par :
+                paramList) {
+            // Map
+            if (par instanceof Map) {
+                Map paramMap = (Map) par;
+                Object isDel = paramMap.get(DA_HUA_IS_DEL);
+                if (isDel != null && String.valueOf(isDel).equals("1")) {
+                    operationLogDTO.setOperatorType(SystemOperatorType.DELETE);
+                }
+                break;
+            }
+            // Collection
+            if (par instanceof Collection && !CollectionUtils.isEmpty((Collection) par)) {
+                parseParameter(((Collection) par).toArray()[0], operationLogDTO, true);
+                break;
+            }
+            // Object[]
+            if (par instanceof Object[]) {
+                parseParameter(((Object[]) par)[0], operationLogDTO, true);
+                break;
+            }
+            parseParameter(par, operationLogDTO, true);
+        }
+    }
+
+    /**
+     * 分析操作类型是更新还是新增
+     * 通过判断方法参数ID属性是否为null
      *
      * @param joinPoint
      * @param operationLogDTO
@@ -85,7 +129,7 @@ public class SystemOperatorLogAspect {
      * @author shengtengsun
      * @date 2020/9/29 5:14 下午
      **/
-    private void analyzingOperationTypeAndSetProjectId(JoinPoint joinPoint, OperationLogDTO operationLogDTO) {
+    private void analyzingOperationTypeForInsertOrUpdate(JoinPoint joinPoint, OperationLogDTO operationLogDTO) {
 
         operationLogDTO.setOperatorType(SystemOperatorType.INSERT);
 
@@ -103,59 +147,69 @@ public class SystemOperatorLogAspect {
             }
             // Collection
             if (par instanceof Collection && !CollectionUtils.isEmpty((Collection) par)) {
-                parseParameter(((Collection) par).toArray()[0], operationLogDTO);
+                parseParameter(((Collection) par).toArray()[0], operationLogDTO,false);
                 break;
             }
             // Object[]
             if (par instanceof Object[]) {
-                parseParameter(((Object[]) par)[0], operationLogDTO);
+                parseParameter(((Object[]) par)[0], operationLogDTO,false);
                 break;
             }
-            parseParameter(par, operationLogDTO);
+            parseParameter(par, operationLogDTO,false);
         }
     }
 
     /**
-     * 遍历参数的所有属性，依次分析属性名是否为id
+     * 解析参数属性
      *
      * @param o               参数值
      * @param operationLogDTO 业务对象
+     * @param isDelete        是否判断删除(默认否)
      * @return void
      * @author shengtengsun
      * @date 2020/10/12 9:34 上午
      **/
-    void parseParameter(Object o, OperationLogDTO operationLogDTO) {
+    void parseParameter(Object o, OperationLogDTO operationLogDTO, Boolean isDelete) {
 
         if (null == o || null == operationLogDTO) {
             return;
         }
+        if (null == isDelete) {
+            isDelete = false;
+        }
 
-        List<Field> fields = Arrays.asList(o.getClass().getDeclaredFields());
+        // 获取所有字段(含父类)
+        ArrayList<Field> fields = new ArrayList<>();
+        Class<?> clazz = o.getClass();
+        for (; clazz != Object.class; clazz = clazz.getSuperclass()) {
+            fields.addAll(Arrays.asList(clazz.getDeclaredFields()));
+        }
+        // switch field type
         for (Field field :
                 fields) {
-            // 基本数据类型
+            // base data type
             if (field.getType().isPrimitive()) {
-                Object fieldValue = getValueOfGetIncludeObjectField(o, PROPERTY_ID);
-                if (null != fieldValue && StringUtils.isNotBlank(String.valueOf(fieldValue))) {
-                    operationLogDTO.setOperatorType(SystemOperatorType.UPDATE);
+                Object fieldValue = getValueOfGetIncludeObjectField(o, isDelete ? DA_HUA_IS_DEL : PROPERTY_ID);
+                String strVal = String.valueOf(fieldValue);
+                if (null != fieldValue && StringUtils.isNotBlank(strVal)) {
+                    operationLogDTO.setOperatorType(strVal.equals('1') ? SystemOperatorType.DELETE : SystemOperatorType.UPDATE);
                     break;
                 }
                 continue;
             }
-            // 非基础包装类
+            // ref no wrap type
             String packageName = field.getType().getPackage().getName();
             if (!LANG_PACKAGE_NAME.equals(packageName)) {
                 Object fieldValue = getValueOfGetIncludeObjectField(o, field.getName());
-                parseParameter(fieldValue, operationLogDTO);
+                parseParameter(fieldValue, operationLogDTO, isDelete);
                 continue;
             }
-            // 基础包装类
-            if (PROPERTY_ID.equals(field.getName())) {
-                Object fieldValue = getValueOfGetIncludeObjectField(o, PROPERTY_ID);
-                if (null != fieldValue && StringUtils.isNotBlank(String.valueOf(fieldValue))) {
-                    operationLogDTO.setOperatorType(SystemOperatorType.UPDATE);
-                    break;
-                }
+            // ref wrap type
+            Object fieldValue = getValueOfGetIncludeObjectField(o, isDelete ? DA_HUA_IS_DEL : PROPERTY_ID);
+            String strVal = String.valueOf(fieldValue);
+            if (null != fieldValue && StringUtils.isNotBlank(strVal)) {
+                operationLogDTO.setOperatorType(strVal.equals("1") ? SystemOperatorType.DELETE : SystemOperatorType.UPDATE);
+                break;
             }
         }
     }

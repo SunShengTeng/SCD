@@ -1,5 +1,6 @@
 package cn.sst.controller.item;
 
+import cn.sst.domain.vo.Admin;
 import cn.sst.service.ItemService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -74,6 +75,11 @@ public class ItemController {
 
     @GetMapping("/find")
     public List<String> findItemList() throws Exception {
-        return null;
+
+        Admin admin = new Admin();
+        admin.setId("123");
+        admin.setName("name");
+        admin.setIsDel(1);
+        return itemService.findItemList(admin);
     }
 }
