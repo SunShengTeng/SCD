@@ -1,9 +1,8 @@
 package cn.sst.scd.controller;
 
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import cn.sst.scd.service.InventoryService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
 
 /**
  * @author shengtengsun
@@ -15,8 +14,16 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/inventory")
 public class InventoryController {
 
+    @Autowired
+    private InventoryService inventoryService;
+
     @GetMapping("/count")
-    public Integer getInventoryByItemId(@RequestParam String itemId) {
-        return 100;
+    public Long getInventoryByItemId(@RequestParam String itemId) {
+        return inventoryService.getInventoryByItemId(itemId);
+    }
+
+    @PostMapping("/add")
+    public void addInventoryForItem(@RequestParam Long itemId, @RequestParam Long count) {
+        inventoryService.addInventoryForItem(itemId, count);
     }
 }

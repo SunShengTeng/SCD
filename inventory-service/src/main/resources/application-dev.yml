@@ -4,19 +4,22 @@ grpc:
   server:
     port: 9071
 spring:
+  cloud:
+    alibaba:
+      seata:
+        #自定义事务组名称需要与seata-server中的对应
+        tx-service-group: scd_tx_group
   # DataSource
   datasource:
-    account:
-      driver-class-name: com.mysql.jdbc.Driver
-      jdbc-url: jdbc:mysql://localhost:3306/account
-      username: sunshengteng
-      password: 208521
-    member:
-      driver-class-name: com.mysql.jdbc.Driver
-      jdbc-url: jdbc:mysql://localhost:3306/member
-      username: sunshengteng
-      password: 208521
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/inventory
+    username: sunshengteng
+    password: 208521
 
+mybatis:
+  mapper-locations: classpath*:mapper/**/*.xml
+  #  config-location: classpath:mybatis-config.xml
+  type-aliases-package: cn.sst.scd.**.dao
 
 # Logger
 logging:

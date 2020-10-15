@@ -23,4 +23,12 @@ dependencies {
     // grpc
     compile "io.grpc:grpc-all:${grpcVersion}"
     compile "net.devh:grpc-spring-boot-starter:${grpcSpringBootStarterVersion}"
+
+    // Seata
+    // compile group: 'com.alibaba.cloud', name: 'spring-cloud-alibaba-seata', version: '2.2.0.RELEASE'
+
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+test {
+    useJUnitPlatform()
 }

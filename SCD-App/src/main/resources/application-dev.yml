@@ -1,8 +1,14 @@
 server:
   port: 8081
 
-# AOP配置
+
 spring:
+  cloud:
+    alibaba:
+      seata:
+        #自定义事务组名称需要与seata-server中的对应
+        tx-service-group: scd_tx_group
+  # AOP配置
   aop:
     proxy-target-class: true
   # JSON 缩进输出
