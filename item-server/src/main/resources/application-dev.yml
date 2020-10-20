@@ -13,19 +13,25 @@ spring:
   datasource:
     account:
       driver-class-name: com.mysql.cj.jdbc.Driver
-      jdbc-url: jdbc:mysql://localhost:3306/account
+      url: jdbc:mysql://localhost:3306/account
       username: sunshengteng
       password: 208521
+      maximumPoolSize: 20
+      minimumIdle: 3
     member:
       driver-class-name: com.mysql.cj.jdbc.Driver
-      jdbc-url: jdbc:mysql://localhost:3306/member
+      url: jdbc:mysql://localhost:3306/member
       username: sunshengteng
       password: 208521
+      maximumPoolSize: 20
+      minimumIdle: 3
     item:
       driver-class-name: com.mysql.cj.jdbc.Driver
-      jdbc-url: jdbc:mysql://localhost:3306/item
+      url: jdbc:mysql://localhost:3306/item
       username: sunshengteng
       password: 208521
+      maximumPoolSize: 20
+      minimumIdle: 3
   # JPA
   jpa:
     properties:
@@ -40,7 +46,10 @@ spring:
       ddl-auto: update
     database-platform: org.hibernate.dialect.MySQL5Dialect
 
-
+mybatis:
+  mapper-locations: classpath*:mapper/**/*.xml
+  #  config-location: classpath:mybatis-config.xml
+  type-aliases-package: cn.sst.scd.**.entity
 # Logger
 logging:
   level:

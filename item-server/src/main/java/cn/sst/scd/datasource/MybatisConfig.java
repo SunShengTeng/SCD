@@ -7,7 +7,6 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.boot.jdbc.DataSourceBuilder;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
 import org.springframework.core.io.Resource;
 import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
@@ -23,9 +22,10 @@ import java.util.HashMap;
  * @Date 2020/8/19 4:12 下午
  * @Version 1.1.0
  **/
-@Configuration
-@MapperScan(basePackages = "cn.sst.mapper")
+/*@Configuration*/
+@MapperScan(basePackages = "cn.sst.scd.mapper")
 public class MybatisConfig {
+
     @Bean("accountDataSource")
     @Primary
     @ConfigurationProperties(prefix = "spring.datasource.account")

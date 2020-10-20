@@ -15,6 +15,8 @@ spring:
     url: jdbc:mysql://localhost:3306/inventory
     username: sunshengteng
     password: 208521
+    maximumPoolSize: 20
+    minimumIdle: 3
 
 mybatis:
   mapper-locations: classpath*:mapper/**/*.xml
