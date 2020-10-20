@@ -74,6 +74,7 @@ public class ItemServiceImpl implements ItemService {
 
         Long inventory = inventoryServiceFeignClient.getInventoryByItemId(itemId);
         System.out.println("库存数量" + inventory);
+
         return itemInfo;
     }
 }
