@@ -373,6 +373,76 @@ public class StorageExample {
             addCriterion("t.count not between", value1, value2, "count");
             return (Criteria) this;
         }
+
+        public Criteria andBatchNumIsNull() {
+            addCriterion("t.batch_num is null");
+            return (Criteria) this;
+        }
+
+        public Criteria andBatchNumIsNotNull() {
+            addCriterion("t.batch_num is not null");
+            return (Criteria) this;
+        }
+
+        public Criteria andBatchNumEqualTo(String value) {
+            addCriterion("t.batch_num =", value, "batchNum");
+            return (Criteria) this;
+        }
+
+        public Criteria andBatchNumNotEqualTo(String value) {
+            addCriterion("t.batch_num <>", value, "batchNum");
+            return (Criteria) this;
+        }
+
+        public Criteria andBatchNumGreaterThan(String value) {
+            addCriterion("t.batch_num >", value, "batchNum");
+            return (Criteria) this;
+        }
+
+        public Criteria andBatchNumGreaterThanOrEqualTo(String value) {
+            addCriterion("t.batch_num >=", value, "batchNum");
+            return (Criteria) this;
+        }
+
+        public Criteria andBatchNumLessThan(String value) {
+            addCriterion("t.batch_num <", value, "batchNum");
+            return (Criteria) this;
+        }
+
+        public Criteria andBatchNumLessThanOrEqualTo(String value) {
+            addCriterion("t.batch_num <=", value, "batchNum");
+            return (Criteria) this;
+        }
+
+        public Criteria andBatchNumLike(String value) {
+            addCriterion("t.batch_num like", value, "batchNum");
+            return (Criteria) this;
+        }
+
+        public Criteria andBatchNumNotLike(String value) {
+            addCriterion("t.batch_num not like", value, "batchNum");
+            return (Criteria) this;
+        }
+
+        public Criteria andBatchNumIn(List<String> values) {
+            addCriterion("t.batch_num in", values, "batchNum");
+            return (Criteria) this;
+        }
+
+        public Criteria andBatchNumNotIn(List<String> values) {
+            addCriterion("t.batch_num not in", values, "batchNum");
+            return (Criteria) this;
+        }
+
+        public Criteria andBatchNumBetween(String value1, String value2) {
+            addCriterion("t.batch_num between", value1, value2, "batchNum");
+            return (Criteria) this;
+        }
+
+        public Criteria andBatchNumNotBetween(String value1, String value2) {
+            addCriterion("t.batch_num not between", value1, value2, "batchNum");
+            return (Criteria) this;
+        }
     }
 
     /**
