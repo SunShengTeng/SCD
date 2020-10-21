@@ -48,10 +48,10 @@ public class InventoryServiceImpl implements InventoryService {
         storage.setCount(count);
         storageMapper.insert(storage);
 
-        System.out.println(1 / 0);
-
-        /*BatchInfo batchInfo = new BatchInfo();
-        batchInfo.setBatchNumber(String.valueOf(new Random().nextInt(10)));
-        batchInfoMapper.insert(batchInfo);*/
+        try {
+            Thread.sleep(6000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 }

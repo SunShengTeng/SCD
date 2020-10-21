@@ -5,7 +5,7 @@ import lombok.extern.slf4j.Slf4j;
 
 /**
  * @author shengtengsun
- * @Description
+ * @Description 库存中心服务降级
  * @Date 2020/10/9 4:15 下午
  * @Version 1.1.0
  **/
@@ -20,6 +20,7 @@ public class InventoryServiceTimeOutFallBack implements InventoryServiceFeignCli
 
     @Override
     public void addInventoryForItem(Long itemId, Long count) {
-
+        System.out.println("添加商品服务降级");
+        throw new IllegalArgumentException("AAA");
     }
 }
