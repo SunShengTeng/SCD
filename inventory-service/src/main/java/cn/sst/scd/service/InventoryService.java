@@ -10,5 +10,5 @@ public interface InventoryService {
 
     Long getInventoryByItemId(String itemId);
 
-    void addInventoryForItem(Long itemId, Long count);
+    void addInventoryForItem(Long itemId, Long count) throws Exception;
 }
