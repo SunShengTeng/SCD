@@ -1,6 +1,5 @@
 package cn.sst.scd.controller;
 
-import cn.sst.scd.exception.StorageException;
 import cn.sst.scd.service.InventoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -24,7 +23,7 @@ public class InventoryController {
     }
 
     @PostMapping("/add")
-    public void addInventoryForItem(@RequestParam Long itemId, @RequestParam Long count) throws StorageException {
+    public void addInventoryForItem(@RequestParam Long itemId, @RequestParam Long count) throws Exception {
         inventoryService.addInventoryForItem(itemId, count);
     }
 }
