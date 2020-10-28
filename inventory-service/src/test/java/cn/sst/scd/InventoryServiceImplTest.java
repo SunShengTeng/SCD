@@ -1,6 +1,5 @@
 package cn.sst.scd;
 
-import cn.sst.scd.exception.StorageException;
 import cn.sst.scd.service.InventoryService;
 import org.junit.After;
 import org.junit.Before;
@@ -41,7 +40,7 @@ public class InventoryServiceImplTest {
     }
 
     @Test
-    public void addInventory() throws StorageException {
+    public void addInventory() throws Exception {
         inventoryService.addInventoryForItem(99L, 100L);
     }
 

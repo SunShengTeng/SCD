@@ -1,6 +1,6 @@
 package cn.sst.scd.controller;
 
-import cn.sst.scd.service.ItemService;
+import cn.sst.scd.service.IItemService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -17,7 +17,7 @@ import java.util.List;
 @RequestMapping("/item")
 public class ItemController {
     @Autowired
-    private ItemService itemService;
+    private IItemService itemService;
 
     @GetMapping("/info")
     public String getItemNameById(@RequestParam String itemId) {

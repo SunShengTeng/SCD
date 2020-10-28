@@ -20,7 +20,7 @@ import java.util.List;
  * @Version 1.1.0
  **/
 @Service
-public class ItemServiceImpl implements ItemService {
+public class SCDItemServiceImpl implements ItemService {
 
     @Autowired
     private ItemServiceFeignClient itemServiceFeignClient;
@@ -41,9 +41,12 @@ public class ItemServiceImpl implements ItemService {
     @GlobalTransactional(name = "ADD_ITEM", rollbackFor = Exception.class)
     @Override
     public void addItem(String itemName, Long itemCount) {
+
         itemServiceFeignClient.addItem(itemName);
 
-        inventoryServiceFeignClient.addInventoryForItem(99L, 100L);
+        /*System.out.println(1 / 0);*/
+
+        inventoryServiceFeignClient.addInventoryForItem(99L, itemCount);
     }
 
     public Subscriber subscribeInventory() {
@@ -55,7 +58,6 @@ public class ItemServiceImpl implements ItemService {
 
             @Override
             public void onError(Throwable e) {
-
             }
 
             @Override
