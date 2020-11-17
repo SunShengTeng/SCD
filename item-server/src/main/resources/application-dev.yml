@@ -57,3 +57,17 @@ logging:
     org.springframework: error
 
 
+# Http服务配置
+http:
+  #ERP 服务
+  erp:
+    # 获取物料的可要货数量
+    canRequiredNum:
+      host: http://crm.dahua-crm-dahua-crm.testms.com
+      uri: /dahua-erp-base/Orders/prjUnship
+      method: GET
+    # 获取物料的已发货总量、已取消总量
+    shipAndCancelQty:
+      host: http://crm.dahua-crm-dahua-crm.testms.com
+      uri: /dahua-erp-base/Orders/prjShip
+      method: GET

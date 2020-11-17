@@ -25,4 +25,11 @@ logging:
     # security 日志
     org.springframework.security: info
 
+# Http服务配置
+http:
+  #ERP 服务
+  erp-server:
+    host: http://crm.dahua-crm-dahua-crm.testms.com
+    name: erp-server
+
 
