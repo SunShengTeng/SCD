@@ -31,5 +31,9 @@ http:
   erp-server:
     host: http://crm.dahua-crm-dahua-crm.testms.com
     name: erp-server
+  #CRM 服务
+  crm-server:
+    host: http://10.1.1.5:8080
+    name: crm-server
 
 
