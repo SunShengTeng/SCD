@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Map;
 
 /**
  * @author shengtengsun
@@ -27,9 +28,13 @@ public class ItemController {
 
 
     @GetMapping("/info")
-    public String getItemNameById(@RequestParam String itemId) {
-        System.out.println(erpHttpConfig.toString());
-        return "商品" + itemId;
+    public Map getItemNameById(@RequestParam String itemId) {
+        return itemService.getItemNameById(itemId);
+    }
+
+    @GetMapping("/inventory")
+    public Map getInventoryOfItemByItemId(@RequestParam String itemId) {
+        return itemService.getInventoryOfItemByItemId(itemId);
     }
 
     @GetMapping("/list")
@@ -41,4 +46,6 @@ public class ItemController {
     public void addItem(@RequestParam String itemName) {
         itemService.addItem(itemName);
     }
+
+
 }

@@ -15,6 +15,7 @@ import org.springframework.transaction.annotation.Transactional;
 import javax.persistence.EntityManager;
 import javax.persistence.Query;
 import java.util.List;
+import java.util.Map;
 
 /**
  * @author shengtengsun
@@ -58,6 +59,16 @@ public class ItemServiceImpl implements IItemService {
         nativeQuery.setResultTransformer(Transformers.aliasToBean(Item.class));
         List resultList = nativeQuery.getResultList();
         return resultList;
+    }
+
+    @Override
+    public Map getItemNameById(String itemId) {
+        return null;
+    }
+
+    @Override
+    public Map getInventoryOfItemByItemId(String itemId) {
+        return null;
     }
 
 }
