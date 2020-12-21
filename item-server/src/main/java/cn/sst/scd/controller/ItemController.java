@@ -32,8 +32,8 @@ public class ItemController {
         return itemService.getItemNameById(itemId);
     }
 
-    @GetMapping("/inventory")
-    public Map getInventoryOfItemByItemId(@RequestParam String itemId) {
+    @GetMapping("/inventory/{itemId}")
+    public Map getInventoryOfItemByItemId(@PathVariable("itemId") Integer itemId) {
         return itemService.getInventoryOfItemByItemId(itemId);
     }
 
@@ -47,5 +47,16 @@ public class ItemController {
         itemService.addItem(itemName);
     }
 
-
+    /**
+     * 模拟禁用商品
+     *
+     * @param itemId:
+     * @return void
+     * @author shengtengsun
+     * @date 2020/12/16 上午10:42
+     **/
+    @PostMapping("/disable")
+    public void disableItem(@RequestBody Long itemId) {
+        itemService.disableItem(itemId);
+    }
 }

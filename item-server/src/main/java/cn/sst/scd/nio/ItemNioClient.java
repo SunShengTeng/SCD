@@ -1,6 +1,6 @@
 package cn.sst.scd.nio;
 
-import cn.sst.scd.nio.handler.InventorySelectorHandler;
+import cn.sst.scd.nio.handler.ItemSelectorHandler;
 import com.google.common.util.concurrent.ThreadFactoryBuilder;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -18,7 +18,7 @@ public class ItemNioClient {
 
     public static void startClient() {
         Executors.newSingleThreadExecutor(new ThreadFactoryBuilder().setNameFormat("ItemClient-Pool-").build())
-                .submit(new InventorySelectorHandler());
+                .submit(new ItemSelectorHandler());
         logger.info("start ItemNioClient success ! ! ! ");
     }
 }

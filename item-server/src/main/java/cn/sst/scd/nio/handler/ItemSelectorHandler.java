@@ -1,85 +1,70 @@
 package cn.sst.scd.nio.handler;
 
+import cn.sst.scd.nio.selector.ItemSelector;
 import com.alibaba.fastjson.JSON;
-import com.alibaba.fastjson.JSONObject;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.channels.SelectionKey;
 import java.nio.channels.Selector;
-import java.nio.channels.ServerSocketChannel;
 import java.nio.channels.SocketChannel;
 import java.util.HashMap;
 import java.util.Iterator;
-import java.util.Map;
 import java.util.Set;
 
 /**
  * @author shengtengsun
- * @Description 商品服务的 Handler Of Selector 守护进程
- * @Date 2020/12/1 下午2:41
+ * @Description 库存服务的 Handler Of Selector
+ * @Date 2020/12/1 下午4:35
  * @Version 1.1.0
  **/
 public class ItemSelectorHandler implements Runnable {
-    private static final Logger logger = LoggerFactory.getLogger(ItemSelectorHandler.class);
-    /**
-     * Selector
-     **/
-    private Selector serverSelector;
-    /**
-     * The switch is terminated
-     **/
-    private volatile Boolean stopFlag = false;
 
-
-    public ItemSelectorHandler(Selector serverSelector) {
-        this.serverSelector = serverSelector;
-    }
-
-    public void stopMonitor() {
-        this.stopFlag = true;
-    }
+    private volatile boolean stop = false;
 
     @Override
     public void run() {
-
-        while (!stopFlag) {
+        while (!stop) {
+            Selector selector = ItemSelector.getInstance();
             try {
-                this.serverSelector.select(1000);
-                Set<SelectionKey> selectionKeys = this.serverSelector.selectedKeys();
+                // 每隔一秒钟重新获取一遍可被激活的Channel
+                selector.select(1000);
+
+                Set<SelectionKey> selectionKeys = selector.selectedKeys();
                 Iterator<SelectionKey> keyIter = selectionKeys.iterator();
+
                 while (keyIter.hasNext()) {
                     SelectionKey key = keyIter.next();
-                    keyIter.remove();
-
+                    // 从Selection控制位读取信息
                     if (key.isValid()) {
-                        // 建立连接
-                        if (key.isAcceptable()) {
-                            ServerSocketChannel ssc = (ServerSocketChannel) key.channel();
-                            SocketChannel socketChannel = ssc.accept();
-                            // 配置为非阻塞式
-                            socketChannel.configureBlocking(false);
-                            socketChannel.register(this.serverSelector, SelectionKey.OP_READ);
-                            logger.info(" Register new SocketChannel And Monitor Read");
+                        SocketChannel socketChannel = (SocketChannel) key.channel();
+                        // 连接就绪(TCP 握手成功)
+                        if (key.isConnectable()) {
+                            if (socketChannel.finishConnect()) {
+                                socketChannel.register(selector, SelectionKey.OP_READ);
+
+                                // 发送请求
+                                HashMap<String, Integer> itemMap = new HashMap<>(16);
+                                itemMap.put("itemId", 11);
+                                ByteBuffer byteBuffer = ByteBuffer.allocate(1000);
+                                byteBuffer.put(JSON.toJSONString(itemMap).getBytes());
+                                byteBuffer.flip();
+                                socketChannel.write(byteBuffer);
+
+                            }
                         }
-                        // 发送查询请求
+                        // 读取服务器响应
                         if (key.isReadable()) {
-                            SocketChannel socketChannel = (SocketChannel) key.channel();
                             ByteBuffer byteBuffer = ByteBuffer.allocate(1000);
-                            int countOfRead = socketChannel.read(byteBuffer);
-                            if (countOfRead > 0) {
-                                // 读到数据
+                            int read = socketChannel.read(byteBuffer);
+                            if (read > 0) {
                                 byteBuffer.flip();
                                 byte[] bytes = new byte[byteBuffer.remaining()];
-                                String dataOfRead = new String(bytes, "UTF-8");
-                                // 会写结果
-                                doWriter(socketChannel, dataOfRead);
-                            } else if (countOfRead < 0) {
-                                // 读结束
-                                key.cancel();
+                                byteBuffer.get(bytes);
+                                System.out.println("查询到的库存信息" + new String(bytes, "UTF-8"));
+                            } else if (read < 0) {
                                 socketChannel.close();
+                                key.cancel();
                             } else {
 
                             }
@@ -90,24 +75,5 @@ public class ItemSelectorHandler implements Runnable {
                 e.printStackTrace();
             }
         }
-    }
-
-    private void doWriter(SocketChannel socketChannel, String dataOfRead) throws IOException {
-        JSONObject jsonObject = JSON.parseObject(dataOfRead);
-        Map param = jsonObject;
-        logger.info("ItemDemon.doWriter() -> 读到的数据:{}", param.toString());
-
-        Integer itemId = Integer.valueOf(String.valueOf(param.get("itemId")));
-
-        HashMap<String, Integer> resultMap = new HashMap<>(16);
-        resultMap.put("itemId", itemId);
-        resultMap.put("inventory", 100 + itemId);
-
-        ByteBuffer writeBuffer = ByteBuffer.allocate(1000);
-        String resultStr = JSONObject.toJSONString(resultMap);
-        writeBuffer.put(resultStr.getBytes());
-        writeBuffer.flip();
-        socketChannel.write(writeBuffer);
-
     }
 }

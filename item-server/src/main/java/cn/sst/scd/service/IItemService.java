@@ -43,10 +43,30 @@ public interface IItemService {
     /**
      * 通过商品ID获取商品库存(Nio客户端)
      *
-     * @param itemId:
+     * @param itemId :
      * @return java.util.Map
      * @author shengtengsun
      * @date 2020/12/1 下午4:25
      **/
-    Map getInventoryOfItemByItemId(String itemId);
+    Map getInventoryOfItemByItemId(Integer itemId);
+
+    /**
+     * 模拟禁用商品
+     *
+     * @param itemId:
+     * @return void
+     * @author shengtengsun
+     * @date 2020/12/16 上午10:42
+     **/
+    void disableItem(Long itemId);
+
+    /**
+     * 复制商品
+     *
+     * @param itemName:
+     * @return void
+     * @author shengtengsun
+     * @date 2020/12/16 下午2:57
+     **/
+    void copyItem(String itemName);
 }

@@ -16,7 +16,7 @@ public class Item {
 
     private String name;
 
-    private String describe;
+    private String describeText;
 
 
     /*private Date createTime;
@@ -45,14 +45,11 @@ public class Item {
         this.id = id;
     }
 
-
-    public String getDescribe() {
-        return describe;
+    public String getDescribeText() {
+        return describeText;
     }
 
-    public void setDescribe(String describe) {
-        this.describe = describe;
+    public void setDescribeText(String describeText) {
+        this.describeText = describeText;
     }
-
-
 }

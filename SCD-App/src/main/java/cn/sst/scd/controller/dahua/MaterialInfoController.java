@@ -6,6 +6,8 @@ import cn.sst.scd.feign.CrmServiceFeignClient;
 import cn.sst.scd.feign.ErpServiceFeignClient;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 import java.math.BigDecimal;
@@ -20,7 +22,7 @@ import java.util.*;
  * @Version 1.1.0
  **/
 @Slf4j
-@RestController
+@Controller
 @RequestMapping("/dahua/material")
 public class MaterialInfoController {
     @Autowired
@@ -29,6 +31,7 @@ public class MaterialInfoController {
     private CrmServiceFeignClient crmServiceFeignClient;
 
     @PostMapping("/erp")
+    @ResponseBody
     @LoggerRequestParam
     public void getCanRequiredNum(@RequestBody ErpMaterialPar materialPar) {
 
@@ -41,6 +44,7 @@ public class MaterialInfoController {
     }
 
     @GetMapping("/crm")
+    @ResponseBody
     @LoggerRequestParam
     public void debugCrmService() {
 
@@ -83,6 +87,7 @@ public class MaterialInfoController {
      * @author shengtengsun
      * @date 2020/11/18 下午6:42
      **/
+    @ResponseBody
     @GetMapping("/crm/promise")
     public void getProviderPromise() {
 
@@ -110,4 +115,47 @@ public class MaterialInfoController {
         System.out.println(crmReturnDTO);
 
     }
+
+    @GetMapping("/index")
+    public String index() {
+
+        return "index";
+    }
+
+    @GetMapping("/dis")
+    public String mailMaterialDistributeTemplate(Model model) {
+        HashMap<String, Object> modelMap = new HashMap<>(16);
+        modelMap.put("userName", "孙胜腾");
+        ArrayList<Map> projectMapList = new ArrayList<>();
+
+        HashMap<String, Object> projectMap = new HashMap<>(16);
+        projectMap.put("projectNo", "S2323423424");
+        projectMap.put("projectName", "1-XIWMBG（标签）讯之美物联网服务大华");
+
+        MaterialInfoDTO.MaterialInfoDTOBuilder dtoBuilder = MaterialInfoDTO.builder()
+                .partNum("10.1.1.1231")
+                .prodDesc("物料A")
+                .historyNum(BigDecimal.valueOf(12.12));
+        projectMap.put("materials", dtoBuilder.build());
+
+        projectMapList.add(projectMap);
+
+        HashMap<String, Object> projectMap1 = new HashMap<>(16);
+        projectMap1.put("projectNo", "S2323423424");
+        projectMap1.put("projectName", "1-XIWMBG（标签）讯之美物联网服务大华");
+
+        MaterialInfoDTO.MaterialInfoDTOBuilder dtoBuilder1 = MaterialInfoDTO.builder()
+                .partNum("10.1.1.1231")
+                .prodDesc("物料A")
+                .historyNum(BigDecimal.valueOf(12.12));
+        projectMap1.put("materials", dtoBuilder1.build());
+
+        projectMapList.add(projectMap1);
+
+        modelMap.put("data", projectMapList);
+        model.addAttribute("model", modelMap);
+        return "mailMaterialDistributeTemplate";
+    }
+
+
 }
