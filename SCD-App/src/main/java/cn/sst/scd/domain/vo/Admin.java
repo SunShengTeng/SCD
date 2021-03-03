@@ -7,7 +7,9 @@ package cn.sst.scd.domain.vo;
  * @Version 1.1.0
  **/
 public class Admin extends User {
-
+    /**
+     * 岗位、工作
+     **/
     private String job;
     private Integer isDel;
 
