@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>物料管理-滚动要货：历史未分配物料列表</title>
+    <style>
+        table,table tr th, table tr td { border:1px solid #333842; }
+        table { min-height: 25px; line-height: 25px; text-align: center; border-collapse: collapse;}
+        #material {
+            padding-left: 100px;
+        }
+
+    </style>
+</head>
+<body>
+<span th:text="${model.userName} + '你好:'"/>
+<br/>
+<!--【项目编号】【项目全称】中存在历史物料未发货，请及时调整滚动要货计划。-->
+<!--历史物料：
+【物料号】【产品名称】，历史数量：【历史】
+【物料号】【产品名称】，历史数量：【历史】-->
+<div th:each="projectMap : ${model.data}">
+    <span th:text="'【' + ${projectMap.projectNo} + '】'"/>&nbsp&nbsp&nbsp&nbsp<span
+        th:text="'【' + ${projectMap.projectName} + '】中存在历史物料未发货，请及时调整滚动要货计划。'"/>
+    <div id="material">
+        <table>
+            <thead>
+            <tr>
+                <td>物料号</td>
+                <td width="500px">产品名称</td>
+                <td>历史数量</td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:each="material : ${projectMap.materials}">
+                <td th:text="${material.partNum}"/>
+                <td th:text="${material.prodDesc}"/>
+                <td th:text="${material.historyNum}"/>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <HR style="FILTER:alpha(opacity=100,finishopacity=0,style=3)" width="100%" color=#987cb9 SIZE=3>
+</div>
+</body>
+</html>

@@ -1,4 +1,38 @@
+repositories {
+    maven {
+        url 'file://' + new File(System.getProperty('user.home'), 'server/gradle-6.5.1/caches/modules-2/files-2.1').absolutePath
+    }
+}
 dependencies {
+    compile project(':common-utils')
+
+    compile "org.springframework.cloud:spring-cloud-starter-netflix-eureka-client"
+
+    compile "org.springframework.boot:spring-boot-starter-aop"
+    // Hystrix
+    compile "org.springframework.cloud:spring-cloud-starter-netflix-hystrix"
+    // Hystrix Dashboard
+    implementation "org.springframework.boot:spring-boot-starter-actuator"
+    compile "org.springframework.cloud:spring-cloud-starter-netflix-hystrix-dashboard"
+
+    // Feign
+    compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-openfeign'
+    compile group: 'io.github.openfeign', name: 'feign-okhttp', version: '11.0'
+
+    // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-security
+    // compile group: 'org.springframework.boot', name: 'spring-boot-starter-security', version: '2.3.1.RELEASE'
+
+    // Common-utils
+    // compile 'cn.sunshengteng.scd:common-utils:1.0.0-SNAPSHOT'
+
+    // Seata
+    compile group: 'com.alibaba.cloud', name: 'spring-cloud-alibaba-seata', version: '2.2.0.RELEASE'
+
+    // Java Mail
+    compile 'org.springframework.boot:spring-boot-starter-mail'
+
+    // thymeleaf
+    compile 'org.springframework.boot:spring-boot-starter-thymeleaf'
 
     testCompile group: 'junit', name: 'junit', version: '4.12'
 }

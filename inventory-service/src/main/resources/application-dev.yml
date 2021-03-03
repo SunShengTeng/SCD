@@ -1,0 +1,32 @@
+server:
+  port: 8071
+grpc:
+  server:
+    port: 9071
+spring:
+  cloud:
+    alibaba:
+      seata:
+        #自定义事务组名称需要与seata-server中的对应
+        tx-service-group: scd_tx_group
+  # DataSource
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/inventory
+    username: sunshengteng
+    password: 208521
+    maximumPoolSize: 20
+    minimumIdle: 3
+
+mybatis:
+  mapper-locations: classpath*:mapper/**/*.xml
+  #  config-location: classpath:mybatis-config.xml
+  type-aliases-package: cn.sst.scd.**.dao
+
+# Logger
+logging:
+  level:
+    org.hibernate.type.descriptor.sql: trace
+    org.springframework: error
+
+
