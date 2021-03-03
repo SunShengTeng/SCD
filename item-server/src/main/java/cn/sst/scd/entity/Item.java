@@ -26,7 +26,9 @@ public class Item {
      * 商品名称
      **/
     private String name;
-
+    /**
+     * 描述文本
+     **/
     private String describeText;
 
 
