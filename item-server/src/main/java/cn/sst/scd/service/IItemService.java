@@ -9,6 +9,14 @@ import cn.sst.scd.entity.Item;
  * @Version 1.1.0
  **/
 public interface IItemService {
+    /**
+     * 插入商品
+     *
+     * @param name:
+     * @return cn.sst.scd.entity.Item
+     * @author shengtengsun
+     * @date 2021/3/3 下午2:00
+     **/
     Item insertItem(String name);
 
     void updateItem(Item item);

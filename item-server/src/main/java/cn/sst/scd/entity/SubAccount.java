@@ -12,6 +12,9 @@ import lombok.ToString;
 @Data
 @ToString
 public class SubAccount {
+    /**
+     * Id
+     **/
     private Long id;
     private String subAccountId;
     private String accountId;

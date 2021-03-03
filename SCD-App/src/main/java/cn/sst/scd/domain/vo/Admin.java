@@ -7,8 +7,13 @@ package cn.sst.scd.domain.vo;
  * @Version 1.1.0
  **/
 public class Admin extends User {
-
+    /**
+     * 岗位、工作
+     **/
     private String job;
+    /**
+     * 逻辑删除
+     **/
     private Integer isDel;
 
     public String getJob() {
