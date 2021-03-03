@@ -16,10 +16,15 @@ import javax.persistence.Id;
 @Data
 @Entity
 public class Item {
+    /**
+     * ID
+     **/
     @Id
-    @GeneratedValue(strategy= GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
+    /**
+     * 商品名称
+     **/
     private String name;
 
     private String describeText;
