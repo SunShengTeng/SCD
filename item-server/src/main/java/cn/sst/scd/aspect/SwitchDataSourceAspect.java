@@ -25,7 +25,6 @@ public class SwitchDataSourceAspect {
 
         UsedDateSource dateSource = signature.getMethod().getDeclaredAnnotation(UsedDateSource.class);
         if (null != dateSource) {
-            System.out.println("注解内容：" + dateSource.value());
             DataSourceContextHolder.setDataSource(dateSource.value());
         }
         rest = joinPoint.proceed();

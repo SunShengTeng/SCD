@@ -1,137 +1,42 @@
 package cn.sst.scd.service.impl;
 
-import cn.sst.scd.annotation.UsedDateSource;
-import cn.sst.scd.datasource.DataSourceType;
 import cn.sst.scd.entity.Item;
-import cn.sst.scd.entity.ItemInfo;
-import cn.sst.scd.mapper.ItemInfoMapper;
-import cn.sst.scd.nio.selector.ItemSelector;
+import cn.sst.scd.mapper.ItemRepository;
 import cn.sst.scd.service.IItemService;
-import com.alibaba.fastjson.JSON;
-import org.hibernate.query.NativeQuery;
-import org.hibernate.transform.Transformers;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
-import javax.persistence.EntityManager;
-import javax.persistence.Query;
-import java.io.IOException;
-import java.net.InetSocketAddress;
-import java.nio.ByteBuffer;
-import java.nio.channels.SelectionKey;
-import java.nio.channels.Selector;
-import java.nio.channels.SocketChannel;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
 /**
  * @author shengtengsun
  * @Description
- * @Date 2020/10/13 2:58 下午
+ * @Date 2021/2/3 下午4:02
  * @Version 1.1.0
  **/
 @Service
 public class ItemServiceImpl implements IItemService {
     @Autowired
-    private ItemInfoMapper itemInfoMapper;
-    @Autowired
-    private EntityManager entityManager;
-    @Autowired
     private IItemService iItemService;
-
+    @Autowired
+    private ItemRepository itemRepository;
 
     @Override
-    @UsedDateSource(value = DataSourceType.item)
     @Transactional(rollbackFor = Exception.class)
-    public void addItem(String itemName) {
-        ItemInfo itemInfo = new ItemInfo();
-        itemInfo.setName(itemName);
-        int insert = itemInfoMapper.insert(itemInfo);
+    public Item insertItem(String name) {
+        Item item = new Item();
+        item.setName(name);
+        item.setId(1L);
+        itemRepository.save(item);
 
-        try {
-            iItemService.copyItem(itemName + "的附加商品");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-
-    }
-
-
-    @Override
-    @UsedDateSource(value = DataSourceType.item)
-    public List<Item> listItem() {
-        String sql = "select " +
-                "t.id as id" +
-                ", t.name as name" +
-                ", d.describe as `describe`" +
-                ", d.create_time as createTime" +
-                " from item_info t" +
-                " join item_detail d" +
-                " on t.id = d.item_id;";
-        Query query = entityManager.createNativeQuery(sql, Item.class);
-        NativeQuery nativeQuery = query.unwrap(NativeQuery.class);
-        List resultList1 = nativeQuery.getResultList();
-
-        nativeQuery.setResultTransformer(Transformers.aliasToBean(Item.class));
-        List resultList = nativeQuery.getResultList();
-        return resultList;
+        iItemService.updateItem(item);
+        return item;
     }
 
     @Override
-    public Map getItemNameById(String itemId) {
-        return null;
-    }
-
-    @Override
-    public Map getInventoryOfItemByItemId(Integer itemId) {
-        HashMap<String, Integer> itemMap = new HashMap<>(16);
-        itemMap.put("itemId", itemId);
-
-        // 查询库存的Selector
-        Selector selector = ItemSelector.getInstance();
-
-        try {
-            SocketChannel socketChannel = SocketChannel.open();
-            socketChannel.configureBlocking(false);
-            if (socketChannel.connect(new InetSocketAddress("127.0.0.1", 8090))) {
-                // 发送请求
-                ByteBuffer byteBuffer = ByteBuffer.allocate(1000);
-                byteBuffer.put(JSON.toJSONString(itemMap).getBytes());
-                byteBuffer.flip();
-                socketChannel.write(byteBuffer);
-                // 注册读，获取库存信息
-                socketChannel.register(selector, SelectionKey.OP_READ);
-            } else {
-                socketChannel.register(selector, SelectionKey.OP_CONNECT);
-            }
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        return null;
-    }
-
-    @Override
-    public void disableItem(Long itemId) {
-
-    }
-
-    @UsedDateSource(value = DataSourceType.item)
-    @Transactional(rollbackFor = Exception.class, propagation = Propagation.REQUIRES_NEW)
-    @Override
-    public void copyItem(String itemName) {
-        ItemInfo itemInfo = new ItemInfo();
-        itemInfo.setName(itemName);
-        itemInfoMapper.insert(itemInfo);
-        System.out.println(1 / 0);
-    }
-
-    @Transactional(rollbackFor = Exception.class)
-    public void transaction() {
-        List<String> asList = Arrays.asList("AA");
-        asList.forEach(System.out::println);
+    @Transactional(rollbackFor = Exception.class,propagation = Propagation.REQUIRES_NEW)
+    public void updateItem(Item item) {
+        item.setName(item.getName() +  "修改一下名字");
+        itemRepository.save(item);
     }
 }

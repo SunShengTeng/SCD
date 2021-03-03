@@ -1,5 +1,7 @@
 package cn.sst.scd.util;
 
+import org.springframework.util.StringUtils;
+
 import java.time.DayOfWeek;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
@@ -134,5 +136,11 @@ public class DateUtil {
             tempDate = tempDate.plusDays(1);
         }
         return result;
+    }
+
+    public static void main(String[] args) {
+        Integer num = null;
+        System.out.println(!StringUtils.isEmpty(num) && num != 0);
+
     }
 }

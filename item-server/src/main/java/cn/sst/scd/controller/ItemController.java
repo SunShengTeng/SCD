@@ -1,6 +1,8 @@
 package cn.sst.scd.controller;
 
 import cn.sst.scd.config.ErpHttpConfig;
+import cn.sst.scd.exception.ItemException;
+import cn.sst.scd.service.IItemInfoService;
 import cn.sst.scd.service.IItemService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
@@ -21,20 +23,24 @@ import java.util.Map;
 @EnableConfigurationProperties(ErpHttpConfig.class)
 public class ItemController {
     @Autowired
-    private IItemService itemService;
+    private IItemInfoService itemInfoService;
 
     @Autowired
     private ErpHttpConfig erpHttpConfig;
 
+    @Autowired
+    private IItemService iItemService;
+
+
 
     @GetMapping("/info")
     public Map getItemNameById(@RequestParam String itemId) {
-        return itemService.getItemNameById(itemId);
+        return itemInfoService.getItemNameById(itemId);
     }
 
     @GetMapping("/inventory/{itemId}")
     public Map getInventoryOfItemByItemId(@PathVariable("itemId") Integer itemId) {
-        return itemService.getInventoryOfItemByItemId(itemId);
+        return itemInfoService.getInventoryOfItemByItemId(itemId);
     }
 
     @GetMapping("/list")
@@ -42,11 +48,15 @@ public class ItemController {
         return Arrays.asList("商品1", "商品2", "商品3");
     }
 
-    @PostMapping("/add")
-    public void addItem(@RequestParam String itemName) {
-        itemService.addItem(itemName);
+    @PostMapping("/info/add")
+    public void addItemInfo(@RequestParam String itemName) throws ItemException {
+        itemInfoService.addItem(itemName);
     }
 
+    @PostMapping("/add")
+    public void addItem(@RequestParam String itemName) throws ItemException {
+        iItemService.insertItem(itemName);
+    }
     /**
      * 模拟禁用商品
      *
@@ -57,6 +67,6 @@ public class ItemController {
      **/
     @PostMapping("/disable")
     public void disableItem(@RequestBody Long itemId) {
-        itemService.disableItem(itemId);
+        itemInfoService.disableItem(itemId);
     }
 }

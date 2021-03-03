@@ -1,7 +1,7 @@
 package cn.sst.scd.service.impl;
 
 import cn.sst.scd.entity.Item;
-import cn.sst.scd.service.IItemService;
+import cn.sst.scd.service.IItemInfoService;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -24,7 +24,7 @@ import java.util.List;
 public class ItemServiceImplTest {
 
     @Autowired
-    private IItemService iItemService;
+    private IItemInfoService iItemService;
 
     @Before
     public void before() throws Exception {
