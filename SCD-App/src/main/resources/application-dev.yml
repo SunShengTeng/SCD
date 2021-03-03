@@ -1,0 +1,46 @@
+server:
+  port: 8081
+
+
+spring:
+  cloud:
+    alibaba:
+      seata:
+        #自定义事务组名称需要与seata-server中的对应
+        tx-service-group: scd_tx_group
+  # AOP配置
+  aop:
+    proxy-target-class: true
+  # JSON 缩进输出
+  jackson:
+    serialization:
+      indent_output: true
+  thymeleaf:
+    enabled: true  #开启thymeleaf视图解析
+    encoding: utf-8  #编码
+    prefix: classpath:/templates/  #前缀
+    cache: false  #是否使用缓存
+    mode: HTML  #严格的HTML语法模式
+    suffix: .html  #后缀名
+
+account:
+  number:
+
+
+logging:
+  level:
+    # security 日志
+    org.springframework.security: info
+
+# Http服务配置
+http:
+  #ERP 服务
+  erp-server:
+    host: http://crm.dahua-crm-dahua-crm.testms.com
+    name: erp-server
+  #CRM 服务
+  crm-server:
+    host: http://10.1.1.5:8080
+    name: crm-server
+
+

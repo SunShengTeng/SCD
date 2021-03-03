@@ -1,0 +1,7384 @@
+[
+  {
+    "materialInfoId": "3d3b612d-2154-43c0-b2c1-fb3da1015ab9",
+    "partNum": "1.0.01.04.28185",
+    "prodDesc": "中文大华400万全智能标准枪型网络摄像机DH-IPC-HF8449F-VS",
+    "externalModel": "DH-IPC-HF8449F-VS",
+    "productUnit": "个",
+    "qty": 245.00,
+    "crmOrderedQuantity": 288.00,
+    "ebsShippedQty": 224.00,
+    "canRequiredNum": 0,
+    "noPromiseNum": 0,
+    "timeArr": [
+      {
+        "id": 44,
+        "planTime": "2020-11-15",
+        "planNum": 300.00,
+        "hasModify": 1
+      },
+      {
+        "id": null,
+        "planTime": "2020-11-30",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-01",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-02",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-03",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-04",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-05",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-06",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "第1周-汇总",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-07",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-08",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-09",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-10",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-11",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-12",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-13",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "第2周-汇总",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-14",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-15",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-16",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-17",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-18",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-19",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-20",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "第3周-汇总",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-21",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-22",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-23",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-24",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-25",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-26",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-27",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "第4周-汇总",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-28",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-29",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-30",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-31",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-01",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-02",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-03",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "第5周-汇总",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-04",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-05",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-06",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-07",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-08",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-09",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-10",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "第6周-汇总",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-11",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-12",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-13",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-14",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-15",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-16",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-17",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "第7周-汇总",
+        "planNum": null,
+        "hasModify": null
+      }
+    ],
+    "dataType": 1,
+    "modifyDate": "2020-11-20 05:31:10",
+    "modifier": null,
+    "modifierLoginName": null,
+    "submitUser": "刘羽翔",
+    "submitLoginName": "112656",
+    "submitTime": "2020-11-20 05:31:29",
+    "historyNum": 0,
+    "futureNum": 0,
+    "answerTime": null,
+    "hasModify": 1
+  },
+  {
+    "materialInfoId": "3d3b612d-2154-43c0-b2c1-fb3da1015ab9",
+    "partNum": "1.0.01.04.28185",
+    "prodDesc": "中文大华400万全智能标准枪型网络摄像机DH-IPC-HF8449F-VS",
+    "externalModel": "DH-IPC-HF8449F-VS",
+    "productUnit": "个",
+    "qty": 245.00,
+    "crmOrderedQuantity": 288.00,
+    "ebsShippedQty": 224.00,
+    "canRequiredNum": 0,
+    "noPromiseNum": 0,
+    "timeArr": [
+      {
+        "id": null,
+        "planTime": "2020-11-13",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-11-14",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-11-15",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-11-16",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-11-17",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-11-18",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-11-19",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-11-20",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-11-21",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-11-22",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-11-23",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-11-30",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-01",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-02",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-03",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-04",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-05",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-06",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "第1周-汇总",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-07",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-08",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-09",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-10",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-11",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-12",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-13",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "第2周-汇总",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-14",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-15",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-16",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-17",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-18",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-19",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-20",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "第3周-汇总",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-21",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-22",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-23",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-24",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-25",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-26",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-27",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "第4周-汇总",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-28",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-29",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-30",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-31",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-01",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-02",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-03",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "第5周-汇总",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-04",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-05",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-06",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-07",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-08",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-09",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-10",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "第6周-汇总",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-11",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-12",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-13",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-14",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-15",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-16",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-17",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "第7周-汇总",
+        "planNum": 0,
+        "hasModify": null
+      }
+    ],
+    "dataType": 2,
+    "modifyDate": "2020-11-20 05:31:10",
+    "modifier": null,
+    "modifierLoginName": null,
+    "submitUser": "刘羽翔",
+    "submitLoginName": "112656",
+    "submitTime": "2020-11-20 05:31:29",
+    "historyNum": 0,
+    "futureNum": 0,
+    "answerTime": "2020-11-20",
+    "hasModify": 1
+  },
+  {
+    "materialInfoId": "d8fcb54d-3691-4702-af0a-48a1ec0f1ac1",
+    "partNum": "1.0.01.07.12324",
+    "prodDesc": "SD6A9中文大华30倍400W网络机芯高速红外智能球",
+    "externalModel": "DH-SD-6A9430UA-HNI",
+    "productUnit": "个",
+    "qty": 450.00,
+    "crmOrderedQuantity": 507.00,
+    "ebsShippedQty": 431.00,
+    "canRequiredNum": 0,
+    "noPromiseNum": 0,
+    "timeArr": [
+      {
+        "id": null,
+        "planTime": "2020-11-30",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-01",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-02",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-03",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-04",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-05",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-06",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "第1周-汇总",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-07",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-08",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-09",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-10",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-11",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-12",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-13",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "第2周-汇总",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-14",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-15",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-16",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-17",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-18",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-19",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-20",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "第3周-汇总",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-21",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-22",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-23",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-24",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-25",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-26",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-27",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "第4周-汇总",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-28",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-29",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-30",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-31",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-01",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-02",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-03",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "第5周-汇总",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-04",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-05",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-06",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-07",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-08",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-09",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-10",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "第6周-汇总",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-11",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-12",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-13",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-14",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-15",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-16",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-17",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "第7周-汇总",
+        "planNum": null,
+        "hasModify": null
+      }
+    ],
+    "dataType": 1,
+    "modifyDate": "2020-11-15 02:22:41",
+    "modifier": null,
+    "modifierLoginName": null,
+    "submitUser": null,
+    "submitLoginName": null,
+    "submitTime": null,
+    "historyNum": 0,
+    "futureNum": 0,
+    "answerTime": null,
+    "hasModify": 0
+  },
+  {
+    "materialInfoId": "d8fcb54d-3691-4702-af0a-48a1ec0f1ac1",
+    "partNum": "1.0.01.07.12324",
+    "prodDesc": "SD6A9中文大华30倍400W网络机芯高速红外智能球",
+    "externalModel": "DH-SD-6A9430UA-HNI",
+    "productUnit": "个",
+    "qty": 450.00,
+    "crmOrderedQuantity": 507.00,
+    "ebsShippedQty": 431.00,
+    "canRequiredNum": 0,
+    "noPromiseNum": 0,
+    "timeArr": [
+      {
+        "id": null,
+        "planTime": "2020-11-30",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-01",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-02",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-03",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-04",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-05",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-06",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "第1周-汇总",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-07",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-08",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-09",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-10",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-11",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-12",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-13",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "第2周-汇总",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-14",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-15",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-16",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-17",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-18",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-19",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-20",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "第3周-汇总",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-21",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-22",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-23",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-24",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-25",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-26",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-27",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "第4周-汇总",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-28",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-29",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-30",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-31",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-01",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-02",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-03",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "第5周-汇总",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-04",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-05",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-06",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-07",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-08",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-09",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-10",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "第6周-汇总",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-11",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-12",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-13",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-14",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-15",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-16",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-17",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "第7周-汇总",
+        "planNum": 0,
+        "hasModify": null
+      }
+    ],
+    "dataType": 2,
+    "modifyDate": "2020-11-15 02:22:41",
+    "modifier": null,
+    "modifierLoginName": null,
+    "submitUser": null,
+    "submitLoginName": null,
+    "submitTime": null,
+    "historyNum": 0,
+    "futureNum": 0,
+    "answerTime": null,
+    "hasModify": 0
+  },
+  {
+    "materialInfoId": "1a34fecf-0dc0-4fa0-bd00-64fbda72b079",
+    "partNum": "1.0.01.09.11503",
+    "prodDesc": "中文大华慧系列AI智慧监控单元DH-CP835-RU1D",
+    "externalModel": "DH-CP835-RU1D",
+    "productUnit": "个",
+    "qty": 173.00,
+    "crmOrderedQuantity": 153.00,
+    "ebsShippedQty": 140.00,
+    "canRequiredNum": 0,
+    "noPromiseNum": 0,
+    "timeArr": [
+      {
+        "id": 33,
+        "planTime": "2020-11-14",
+        "planNum": 18.00,
+        "hasModify": 0
+      },
+      {
+        "id": 31,
+        "planTime": "2020-11-15",
+        "planNum": 140.00,
+        "hasModify": 0
+      },
+      {
+        "id": 41,
+        "planTime": "2020-11-24",
+        "planNum": 20.00,
+        "hasModify": 0
+      },
+      {
+        "id": 43,
+        "planTime": "2020-11-26",
+        "planNum": 80.00,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-11-30",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-01",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-02",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-03",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-04",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-05",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-06",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "第1周-汇总",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-07",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-08",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-09",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-10",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-11",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-12",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-13",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "第2周-汇总",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-14",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-15",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-16",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-17",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-18",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-19",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-20",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "第3周-汇总",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-21",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-22",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-23",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-24",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-25",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-26",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-27",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "第4周-汇总",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-28",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-29",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-30",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-31",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-01",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-02",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-03",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "第5周-汇总",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-04",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-05",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-06",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-07",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-08",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-09",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-10",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "第6周-汇总",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-11",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-12",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-13",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-14",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-15",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-16",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-17",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "第7周-汇总",
+        "planNum": null,
+        "hasModify": null
+      }
+    ],
+    "dataType": 1,
+    "modifyDate": "2020-11-16 07:46:00",
+    "modifier": null,
+    "modifierLoginName": null,
+    "submitUser": "刘羽翔",
+    "submitLoginName": "112656",
+    "submitTime": "2020-11-16 07:46:16",
+    "historyNum": 0,
+    "futureNum": 0,
+    "answerTime": null,
+    "hasModify": 0
+  },
+  {
+    "materialInfoId": "1a34fecf-0dc0-4fa0-bd00-64fbda72b079",
+    "partNum": "1.0.01.09.11503",
+    "prodDesc": "中文大华慧系列AI智慧监控单元DH-CP835-RU1D",
+    "externalModel": "DH-CP835-RU1D",
+    "productUnit": "个",
+    "qty": 173.00,
+    "crmOrderedQuantity": 153.00,
+    "ebsShippedQty": 140.00,
+    "canRequiredNum": 0,
+    "noPromiseNum": 0,
+    "timeArr": [
+      {
+        "id": null,
+        "planTime": "2020-11-30",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-01",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-02",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-03",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-04",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-05",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-06",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "第1周-汇总",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-07",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-08",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-09",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-10",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-11",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-12",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-13",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "第2周-汇总",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-14",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-15",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-16",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-17",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-18",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-19",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-20",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "第3周-汇总",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-21",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-22",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-23",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-24",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-25",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-26",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-27",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "第4周-汇总",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-28",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-29",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-30",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-31",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-01",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-02",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-03",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "第5周-汇总",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-04",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-05",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-06",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-07",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-08",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-09",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-10",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "第6周-汇总",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-11",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-12",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-13",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-14",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-15",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-16",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-17",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "第7周-汇总",
+        "planNum": 0,
+        "hasModify": null
+      }
+    ],
+    "dataType": 2,
+    "modifyDate": "2020-11-16 07:46:00",
+    "modifier": null,
+    "modifierLoginName": null,
+    "submitUser": "刘羽翔",
+    "submitLoginName": "112656",
+    "submitTime": "2020-11-16 07:46:16",
+    "historyNum": 0,
+    "futureNum": 0,
+    "answerTime": null,
+    "hasModify": 0
+  },
+  {
+    "materialInfoId": "d62da9e1-5563-40c4-a8bb-e1ab11809bfc",
+    "partNum": "1.0.01.16.10015",
+    "prodDesc": "中文大华星光级1200万像素10.5-42mm手动变焦镜头DH-OPT-117F10542D-IR12MP",
+    "externalModel": "DH-OPT-117F10542D-IR12MP",
+    "productUnit": "个",
+    "qty": 245.00,
+    "crmOrderedQuantity": 266.00,
+    "ebsShippedQty": 224.00,
+    "canRequiredNum": 0,
+    "noPromiseNum": 0,
+    "timeArr": [
+      {
+        "id": null,
+        "planTime": "2020-11-30",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-01",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-02",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-03",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-04",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-05",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-06",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "第1周-汇总",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-07",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-08",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-09",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-10",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-11",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-12",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-13",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "第2周-汇总",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-14",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-15",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-16",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-17",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-18",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-19",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-20",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "第3周-汇总",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-21",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-22",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-23",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-24",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-25",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-26",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-27",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "第4周-汇总",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-28",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-29",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-30",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-31",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-01",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-02",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-03",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "第5周-汇总",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-04",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-05",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-06",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-07",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-08",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-09",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-10",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "第6周-汇总",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-11",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-12",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-13",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-14",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-15",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-16",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-17",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "第7周-汇总",
+        "planNum": null,
+        "hasModify": null
+      }
+    ],
+    "dataType": 1,
+    "modifyDate": "2020-11-15 02:22:41",
+    "modifier": null,
+    "modifierLoginName": null,
+    "submitUser": null,
+    "submitLoginName": null,
+    "submitTime": null,
+    "historyNum": 0,
+    "futureNum": 0,
+    "answerTime": null,
+    "hasModify": 0
+  },
+  {
+    "materialInfoId": "d62da9e1-5563-40c4-a8bb-e1ab11809bfc",
+    "partNum": "1.0.01.16.10015",
+    "prodDesc": "中文大华星光级1200万像素10.5-42mm手动变焦镜头DH-OPT-117F10542D-IR12MP",
+    "externalModel": "DH-OPT-117F10542D-IR12MP",
+    "productUnit": "个",
+    "qty": 245.00,
+    "crmOrderedQuantity": 266.00,
+    "ebsShippedQty": 224.00,
+    "canRequiredNum": 0,
+    "noPromiseNum": 0,
+    "timeArr": [
+      {
+        "id": null,
+        "planTime": "2020-11-30",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-01",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-02",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-03",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-04",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-05",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-06",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "第1周-汇总",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-07",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-08",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-09",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-10",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-11",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-12",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-13",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "第2周-汇总",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-14",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-15",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-16",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-17",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-18",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-19",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-20",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "第3周-汇总",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-21",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-22",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-23",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-24",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-25",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-26",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-27",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "第4周-汇总",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-28",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-29",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-30",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-31",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-01",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-02",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-03",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "第5周-汇总",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-04",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-05",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-06",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-07",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-08",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-09",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-10",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "第6周-汇总",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-11",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-12",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-13",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-14",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-15",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-16",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-17",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "第7周-汇总",
+        "planNum": 0,
+        "hasModify": null
+      }
+    ],
+    "dataType": 2,
+    "modifyDate": "2020-11-15 02:22:41",
+    "modifier": null,
+    "modifierLoginName": null,
+    "submitUser": null,
+    "submitLoginName": null,
+    "submitTime": null,
+    "historyNum": 0,
+    "futureNum": 0,
+    "answerTime": null,
+    "hasModify": 0
+  },
+  {
+    "materialInfoId": "c381ef96-80fc-4e99-8591-414773c71529",
+    "partNum": "1.0.01.16.10044",
+    "prodDesc": "中文中性星光级1200万像素10.5-42mm手动变焦镜头(P-iris)OPT-117F10542D01-IR12MP  (智能交通专用）",
+    "externalModel": "OPT-117F10542D01-IR12MP",
+    "productUnit": "个",
+    "qty": 173.00,
+    "crmOrderedQuantity": 206.00,
+    "ebsShippedQty": 140.00,
+    "canRequiredNum": 0,
+    "noPromiseNum": 0,
+    "timeArr": [
+      {
+        "id": null,
+        "planTime": "2020-11-30",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-01",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-02",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-03",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-04",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-05",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-06",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "第1周-汇总",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-07",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-08",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-09",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-10",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-11",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-12",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-13",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "第2周-汇总",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-14",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-15",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-16",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-17",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-18",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-19",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-20",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "第3周-汇总",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-21",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-22",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-23",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-24",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-25",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-26",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-27",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "第4周-汇总",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-28",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-29",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-30",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-31",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-01",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-02",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-03",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "第5周-汇总",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-04",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-05",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-06",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-07",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-08",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-09",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-10",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "第6周-汇总",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-11",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-12",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-13",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-14",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-15",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-16",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-17",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "第7周-汇总",
+        "planNum": null,
+        "hasModify": null
+      }
+    ],
+    "dataType": 1,
+    "modifyDate": "2020-11-16 07:09:55",
+    "modifier": null,
+    "modifierLoginName": null,
+    "submitUser": "孙胜腾",
+    "submitLoginName": "C242656",
+    "submitTime": "2020-10-11 03:30:00",
+    "historyNum": 0,
+    "futureNum": 0,
+    "answerTime": null,
+    "hasModify": 0
+  },
+  {
+    "materialInfoId": "c381ef96-80fc-4e99-8591-414773c71529",
+    "partNum": "1.0.01.16.10044",
+    "prodDesc": "中文中性星光级1200万像素10.5-42mm手动变焦镜头(P-iris)OPT-117F10542D01-IR12MP  (智能交通专用）",
+    "externalModel": "OPT-117F10542D01-IR12MP",
+    "productUnit": "个",
+    "qty": 173.00,
+    "crmOrderedQuantity": 206.00,
+    "ebsShippedQty": 140.00,
+    "canRequiredNum": 0,
+    "noPromiseNum": 0,
+    "timeArr": [
+      {
+        "id": null,
+        "planTime": "2020-11-30",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-01",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-02",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-03",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-04",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-05",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-06",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "第1周-汇总",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-07",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-08",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-09",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-10",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-11",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-12",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-13",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "第2周-汇总",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-14",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-15",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-16",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-17",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-18",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-19",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-20",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "第3周-汇总",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-21",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-22",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-23",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-24",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-25",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-26",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-27",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "第4周-汇总",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-28",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-29",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-30",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-31",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-01",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-02",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-03",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "第5周-汇总",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-04",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-05",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-06",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-07",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-08",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-09",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-10",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "第6周-汇总",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-11",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-12",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-13",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-14",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-15",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-16",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-17",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "第7周-汇总",
+        "planNum": 0,
+        "hasModify": null
+      }
+    ],
+    "dataType": 2,
+    "modifyDate": "2020-11-16 07:09:55",
+    "modifier": null,
+    "modifierLoginName": null,
+    "submitUser": "孙胜腾",
+    "submitLoginName": "C242656",
+    "submitTime": "2020-10-11 03:30:00",
+    "historyNum": 0,
+    "futureNum": 0,
+    "answerTime": null,
+    "hasModify": 0
+  },
+  {
+    "materialInfoId": "adfcebbf-19e4-4a24-8754-474c80b5c532",
+    "partNum": "1.0.01.63.10847",
+    "prodDesc": "1-XIWMBG（标签）讯之美物联网服务大华DHGIS服务一体机DH-GIS-C8000S2-S-M",
+    "externalModel": "DH-DSS-DHGIS-H",
+    "productUnit": "个",
+    "qty": 2.00,
+    "crmOrderedQuantity": 6.00,
+    "ebsShippedQty": 0.00,
+    "canRequiredNum": 0,
+    "noPromiseNum": 0,
+    "timeArr": [
+      {
+        "id": null,
+        "planTime": "2020-11-30",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-01",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-02",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-03",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-04",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-05",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-06",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "第1周-汇总",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-07",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-08",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-09",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-10",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-11",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-12",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-13",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "第2周-汇总",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-14",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-15",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-16",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-17",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-18",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-19",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-20",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "第3周-汇总",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-21",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-22",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-23",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-24",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-25",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-26",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-27",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "第4周-汇总",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-28",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-29",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-30",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-31",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-01",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-02",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-03",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "第5周-汇总",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-04",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-05",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-06",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-07",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-08",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-09",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-10",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "第6周-汇总",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-11",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-12",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-13",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-14",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-15",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-16",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-17",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "第7周-汇总",
+        "planNum": null,
+        "hasModify": null
+      }
+    ],
+    "dataType": 1,
+    "modifyDate": "2020-11-15 02:22:41",
+    "modifier": null,
+    "modifierLoginName": null,
+    "submitUser": null,
+    "submitLoginName": null,
+    "submitTime": null,
+    "historyNum": 0,
+    "futureNum": 0,
+    "answerTime": null,
+    "hasModify": 0
+  },
+  {
+    "materialInfoId": "adfcebbf-19e4-4a24-8754-474c80b5c532",
+    "partNum": "1.0.01.63.10847",
+    "prodDesc": "1-XIWMBG（标签）讯之美物联网服务大华DHGIS服务一体机DH-GIS-C8000S2-S-M",
+    "externalModel": "DH-DSS-DHGIS-H",
+    "productUnit": "个",
+    "qty": 2.00,
+    "crmOrderedQuantity": 6.00,
+    "ebsShippedQty": 0.00,
+    "canRequiredNum": 0,
+    "noPromiseNum": 0,
+    "timeArr": [
+      {
+        "id": null,
+        "planTime": "2020-11-30",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-01",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-02",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-03",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-04",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-05",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-06",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "第1周-汇总",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-07",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-08",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-09",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-10",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-11",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-12",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-13",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "第2周-汇总",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-14",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-15",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-16",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-17",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-18",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-19",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-20",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "第3周-汇总",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-21",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-22",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-23",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-24",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-25",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-26",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-27",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "第4周-汇总",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-28",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-29",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-30",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-31",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-01",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-02",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-03",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "第5周-汇总",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-04",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-05",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-06",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-07",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-08",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-09",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-10",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "第6周-汇总",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-11",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-12",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-13",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-14",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-15",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-16",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-17",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "第7周-汇总",
+        "planNum": 0,
+        "hasModify": null
+      }
+    ],
+    "dataType": 2,
+    "modifyDate": "2020-11-15 02:22:41",
+    "modifier": null,
+    "modifierLoginName": null,
+    "submitUser": null,
+    "submitLoginName": null,
+    "submitTime": null,
+    "historyNum": 0,
+    "futureNum": 0,
+    "answerTime": null,
+    "hasModify": 0
+  },
+  {
+    "materialInfoId": "c8620fc8-0aec-4a5d-b119-a3deba9eec31",
+    "partNum": "1.0.99.50.10070",
+    "prodDesc": "中文大华-室内非屏蔽超五类（UTP CAT5E PVC）-0.5mm-灰色-305m-DH-PFM920I-5EU",
+    "externalModel": "DH-PFM920I-5EU",
+    "productUnit": "箱",
+    "qty": 366.00,
+    "crmOrderedQuantity": 510.00,
+    "ebsShippedQty": 222.00,
+    "canRequiredNum": 0,
+    "noPromiseNum": 0,
+    "timeArr": [
+      {
+        "id": null,
+        "planTime": "2020-11-30",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-01",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-02",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-03",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-04",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-05",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-06",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "第1周-汇总",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-07",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-08",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-09",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-10",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-11",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-12",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-13",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "第2周-汇总",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-14",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-15",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-16",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-17",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-18",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-19",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-20",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "第3周-汇总",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-21",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-22",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-23",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-24",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-25",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-26",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-27",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "第4周-汇总",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-28",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-29",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-30",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-31",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-01",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-02",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-03",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "第5周-汇总",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-04",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-05",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-06",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-07",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-08",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-09",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-10",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "第6周-汇总",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-11",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-12",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-13",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-14",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-15",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-16",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-17",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "第7周-汇总",
+        "planNum": null,
+        "hasModify": null
+      }
+    ],
+    "dataType": 1,
+    "modifyDate": "2020-11-20 02:07:09",
+    "modifier": null,
+    "modifierLoginName": null,
+    "submitUser": "刘羽翔",
+    "submitLoginName": "112656",
+    "submitTime": "2020-11-20 02:07:28",
+    "historyNum": 0,
+    "futureNum": 46,
+    "answerTime": null,
+    "hasModify": 0
+  },
+  {
+    "materialInfoId": "c8620fc8-0aec-4a5d-b119-a3deba9eec31",
+    "partNum": "1.0.99.50.10070",
+    "prodDesc": "中文大华-室内非屏蔽超五类（UTP CAT5E PVC）-0.5mm-灰色-305m-DH-PFM920I-5EU",
+    "externalModel": "DH-PFM920I-5EU",
+    "productUnit": "箱",
+    "qty": 366.00,
+    "crmOrderedQuantity": 510.00,
+    "ebsShippedQty": 222.00,
+    "canRequiredNum": 0,
+    "noPromiseNum": 0,
+    "timeArr": [
+      {
+        "id": null,
+        "planTime": "2020-11-13",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-11-14",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-11-15",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-11-16",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-11-17",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-11-18",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-11-19",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-11-20",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-11-21",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-11-22",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-11-23",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-11-30",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-01",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-02",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-03",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-04",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-05",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-06",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "第1周-汇总",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-07",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-08",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-09",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-10",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-11",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-12",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-13",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "第2周-汇总",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-14",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-15",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-16",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-17",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-18",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-19",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-20",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "第3周-汇总",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-21",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-22",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-23",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-24",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-25",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-26",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-27",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "第4周-汇总",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-28",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-29",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-30",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-31",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-01",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-02",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-03",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "第5周-汇总",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-04",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-05",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-06",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-07",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-08",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-09",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-10",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "第6周-汇总",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-11",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-12",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-13",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-14",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-15",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-16",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-17",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "第7周-汇总",
+        "planNum": 0,
+        "hasModify": null
+      }
+    ],
+    "dataType": 2,
+    "modifyDate": "2020-11-20 02:07:09",
+    "modifier": null,
+    "modifierLoginName": null,
+    "submitUser": "刘羽翔",
+    "submitLoginName": "112656",
+    "submitTime": "2020-11-20 02:07:28",
+    "historyNum": 0,
+    "futureNum": 0,
+    "answerTime": "2020-11-20",
+    "hasModify": 0
+  },
+  {
+    "materialInfoId": "a0a6f4ce-d216-46eb-90c2-2a50ad528aec",
+    "partNum": "1.1.02.08.12638",
+    "prodDesc": "中文大华-小型金属护罩（二代）-DH-PFH510N-E",
+    "externalModel": "DH-PFH510N-E",
+    "productUnit": "套",
+    "qty": 45.00,
+    "crmOrderedQuantity": 0.00,
+    "ebsShippedQty": 0.00,
+    "canRequiredNum": 0,
+    "noPromiseNum": 0,
+    "timeArr": [
+      {
+        "id": null,
+        "planTime": "2020-11-30",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-01",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-02",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-03",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-04",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-05",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-06",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "第1周-汇总",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-07",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-08",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-09",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-10",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-11",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-12",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-13",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "第2周-汇总",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-14",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-15",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-16",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-17",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-18",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-19",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-20",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "第3周-汇总",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-21",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-22",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-23",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-24",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-25",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-26",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-27",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "第4周-汇总",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-28",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-29",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-30",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-31",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-01",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-02",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-03",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "第5周-汇总",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-04",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-05",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-06",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-07",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-08",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-09",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-10",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "第6周-汇总",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-11",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-12",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-13",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-14",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-15",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-16",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-17",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "第7周-汇总",
+        "planNum": null,
+        "hasModify": null
+      }
+    ],
+    "dataType": 1,
+    "modifyDate": "2020-11-15 02:22:41",
+    "modifier": null,
+    "modifierLoginName": null,
+    "submitUser": null,
+    "submitLoginName": null,
+    "submitTime": null,
+    "historyNum": 0,
+    "futureNum": 0,
+    "answerTime": null,
+    "hasModify": 0
+  },
+  {
+    "materialInfoId": "a0a6f4ce-d216-46eb-90c2-2a50ad528aec",
+    "partNum": "1.1.02.08.12638",
+    "prodDesc": "中文大华-小型金属护罩（二代）-DH-PFH510N-E",
+    "externalModel": "DH-PFH510N-E",
+    "productUnit": "套",
+    "qty": 45.00,
+    "crmOrderedQuantity": 0.00,
+    "ebsShippedQty": 0.00,
+    "canRequiredNum": 0,
+    "noPromiseNum": 0,
+    "timeArr": [
+      {
+        "id": null,
+        "planTime": "2020-11-30",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-01",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-02",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-03",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-04",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-05",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-06",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "第1周-汇总",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-07",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-08",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-09",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-10",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-11",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-12",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-13",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "第2周-汇总",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-14",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-15",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-16",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-17",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-18",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-19",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-20",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "第3周-汇总",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-21",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-22",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-23",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-24",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-25",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-26",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-27",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "第4周-汇总",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-28",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-29",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-30",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-31",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-01",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-02",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-03",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "第5周-汇总",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-04",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-05",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-06",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-07",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-08",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-09",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-10",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "第6周-汇总",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-11",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-12",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-13",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-14",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-15",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-16",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-17",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "第7周-汇总",
+        "planNum": 0,
+        "hasModify": null
+      }
+    ],
+    "dataType": 2,
+    "modifyDate": "2020-11-15 02:22:41",
+    "modifier": null,
+    "modifierLoginName": null,
+    "submitUser": null,
+    "submitLoginName": null,
+    "submitTime": null,
+    "historyNum": 0,
+    "futureNum": 0,
+    "answerTime": null,
+    "hasModify": 0
+  },
+  {
+    "materialInfoId": "e70e86f6-59d6-446b-8a3f-c1edb5bb13d5",
+    "partNum": "1.1.03.21.10295",
+    "prodDesc": "中文大华4米白色圆杆（单向 基本型）-DH-PFG110CW-040L",
+    "externalModel": "DH-PFG110CW-040L",
+    "productUnit": "套",
+    "qty": 897.00,
+    "crmOrderedQuantity": 0.00,
+    "ebsShippedQty": 0.00,
+    "canRequiredNum": 0,
+    "noPromiseNum": 0,
+    "timeArr": [
+      {
+        "id": null,
+        "planTime": "2020-11-30",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-01",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-02",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-03",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-04",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-05",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-06",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "第1周-汇总",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-07",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-08",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-09",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-10",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-11",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-12",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-13",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "第2周-汇总",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-14",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-15",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-16",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-17",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-18",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-19",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-20",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "第3周-汇总",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-21",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-22",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-23",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-24",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-25",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-26",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-27",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "第4周-汇总",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-28",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-29",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-30",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-31",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-01",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-02",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-03",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "第5周-汇总",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-04",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-05",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-06",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-07",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-08",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-09",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-10",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "第6周-汇总",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-11",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-12",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-13",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-14",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-15",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-16",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-17",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "第7周-汇总",
+        "planNum": null,
+        "hasModify": null
+      }
+    ],
+    "dataType": 1,
+    "modifyDate": "2020-11-15 02:22:41",
+    "modifier": null,
+    "modifierLoginName": null,
+    "submitUser": null,
+    "submitLoginName": null,
+    "submitTime": null,
+    "historyNum": 0,
+    "futureNum": 0,
+    "answerTime": null,
+    "hasModify": 0
+  },
+  {
+    "materialInfoId": "e70e86f6-59d6-446b-8a3f-c1edb5bb13d5",
+    "partNum": "1.1.03.21.10295",
+    "prodDesc": "中文大华4米白色圆杆（单向 基本型）-DH-PFG110CW-040L",
+    "externalModel": "DH-PFG110CW-040L",
+    "productUnit": "套",
+    "qty": 897.00,
+    "crmOrderedQuantity": 0.00,
+    "ebsShippedQty": 0.00,
+    "canRequiredNum": 0,
+    "noPromiseNum": 0,
+    "timeArr": [
+      {
+        "id": null,
+        "planTime": "2020-11-30",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-01",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-02",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-03",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-04",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-05",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-06",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "第1周-汇总",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-07",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-08",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-09",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-10",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-11",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-12",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-13",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "第2周-汇总",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-14",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-15",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-16",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-17",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-18",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-19",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-20",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "第3周-汇总",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-21",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-22",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-23",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-24",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-25",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-26",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-27",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "第4周-汇总",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-28",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-29",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-30",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-31",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-01",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-02",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-03",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "第5周-汇总",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-04",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-05",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-06",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-07",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-08",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-09",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-10",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "第6周-汇总",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-11",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-12",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-13",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-14",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-15",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-16",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-17",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "第7周-汇总",
+        "planNum": 0,
+        "hasModify": null
+      }
+    ],
+    "dataType": 2,
+    "modifyDate": "2020-11-15 02:22:41",
+    "modifier": null,
+    "modifierLoginName": null,
+    "submitUser": null,
+    "submitLoginName": null,
+    "submitTime": null,
+    "historyNum": 0,
+    "futureNum": 0,
+    "answerTime": null,
+    "hasModify": 0
+  },
+  {
+    "materialInfoId": "a5c70394-8c23-403e-b8af-457a80da48eb",
+    "partNum": "1.5.04.01.00400",
+    "prodDesc": "定制L型圆形监控杆4000*114*4mm 1000*76*4mm",
+    "externalModel": "4000*114*4mm 1000*76*4mm",
+    "productUnit": "根",
+    "qty": 363.00,
+    "crmOrderedQuantity": 337.00,
+    "ebsShippedQty": 337.00,
+    "canRequiredNum": 0,
+    "noPromiseNum": 0,
+    "timeArr": [
+      {
+        "id": null,
+        "planTime": "2020-11-30",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-01",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-02",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-03",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-04",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-05",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-06",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "第1周-汇总",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-07",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-08",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-09",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-10",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-11",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-12",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-13",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "第2周-汇总",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-14",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-15",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-16",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-17",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-18",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-19",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-20",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "第3周-汇总",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-21",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-22",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-23",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-24",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-25",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-26",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-27",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "第4周-汇总",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-28",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-29",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-30",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-31",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-01",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-02",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-03",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "第5周-汇总",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-04",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-05",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-06",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-07",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-08",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-09",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-10",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "第6周-汇总",
+        "planNum": null,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-11",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-12",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-13",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-14",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-15",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-16",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-17",
+        "planNum": 0,
+        "hasModify": 0
+      },
+      {
+        "id": null,
+        "planTime": "第7周-汇总",
+        "planNum": null,
+        "hasModify": null
+      }
+    ],
+    "dataType": 1,
+    "modifyDate": "2020-11-17 11:48:07",
+    "modifier": null,
+    "modifierLoginName": null,
+    "submitUser": null,
+    "submitLoginName": null,
+    "submitTime": null,
+    "historyNum": 0,
+    "futureNum": 0,
+    "answerTime": null,
+    "hasModify": 0
+  },
+  {
+    "materialInfoId": "a5c70394-8c23-403e-b8af-457a80da48eb",
+    "partNum": "1.5.04.01.00400",
+    "prodDesc": "定制L型圆形监控杆4000*114*4mm 1000*76*4mm",
+    "externalModel": "4000*114*4mm 1000*76*4mm",
+    "productUnit": "根",
+    "qty": 363.00,
+    "crmOrderedQuantity": 337.00,
+    "ebsShippedQty": 337.00,
+    "canRequiredNum": 0,
+    "noPromiseNum": 0,
+    "timeArr": [
+      {
+        "id": null,
+        "planTime": "2020-11-30",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-01",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-02",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-03",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-04",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-05",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-06",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "第1周-汇总",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-07",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-08",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-09",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-10",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-11",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-12",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-13",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "第2周-汇总",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-14",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-15",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-16",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-17",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-18",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-19",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-20",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "第3周-汇总",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-21",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-22",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-23",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-24",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-25",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-26",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-27",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "第4周-汇总",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-28",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-29",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-30",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2020-12-31",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-01",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-02",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-03",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "第5周-汇总",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-04",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-05",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-06",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-07",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-08",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-09",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-10",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "第6周-汇总",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-11",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-12",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-13",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-14",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-15",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-16",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "2021-01-17",
+        "planNum": 0,
+        "hasModify": null
+      },
+      {
+        "id": null,
+        "planTime": "第7周-汇总",
+        "planNum": 0,
+        "hasModify": null
+      }
+    ],
+    "dataType": 2,
+    "modifyDate": "2020-11-17 11:48:07",
+    "modifier": null,
+    "modifierLoginName": null,
+    "submitUser": null,
+    "submitLoginName": null,
+    "submitTime": null,
+    "historyNum": 0,
+    "futureNum": 0,
+    "answerTime": null,
+    "hasModify": 0
+  }
+]
