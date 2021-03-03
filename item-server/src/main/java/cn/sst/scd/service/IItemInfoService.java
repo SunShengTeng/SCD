@@ -66,6 +66,7 @@ public interface IItemInfoService {
      *
      * @param itemName:
      * @return void
+     * @throws ItemException
      * @author shengtengsun
      * @date 2020/12/16 下午2:57
      **/
